@@ -1,0 +1,147 @@
+
+@import url('https://fonts.googleapis.com/css?family=Krona+One');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+
+  
+  nav {
+    background-color: #53b5e5;
+    padding: 1em;
+    margin-top: -50px;
+
+   }
+  nav li{
+    font-family:'Lobster';
+    font-size: 1.6em;
+    list-style-type: none;
+    display: inline-block;
+    padding: .6em .6em;
+    line-height: 2px;
+    position: relative;
+    object-position: center;
+    left: 150px;
+    
+
+  }
+  nav a {
+    text-color: #FFFFFF;
+    line-height: 2px;
+    text-decoration: nome;
+  }
+
+  nav a:hover {
+    color: #ffbe1c;
+
+}
+  nav ul {
+    margin: 0; 
+    align-items: center;
+  }
+  .logo {
+    position:relative;    
+    background-color: white;
+    width: 15%;
+    height:15%;
+    left: 10px;
+    border-color: black;
+  }
+
+  .banner {
+    position: relative;
+    object-position: center;
+    margin-top: 0px;
+    left: -10px;
+    
+  }
+  
+  #sec1, #sec2, #sec3 {
+    background-color: #addcf3
+  }
+   h1, h2, h3, h4, h5 {
+    /*color:  #FFFFFF;*/
+    color: #164a8a;
+    padding: 10px;
+  }
+  p {
+  padding: 10px;
+  } 
+  .pspec {
+    color: #164a8a;
+  }
+  #content {
+   width: 960px;
+   margin: 0 auto;
+   }
+   
+   }
+   .cabeÃ§alho {
+    font-family: 'Krona One';
+    padding: 10px;
+    line-height: 2px;
+   }
+   .leftcol, .rightcol {
+   width: 48%;
+   flex:1;
+   margin: .5em;
+   }        
+   footer{
+    object-position: center;
+   text-align: center;
+   width: 48%;
+   justify-content: center;
+   }
+   #sec1, #sec2, #sec3, footer { 
+  display: flex;
+  flex-flow: row wrap;
+  
+ }
+ .leftcol {
+  width: 48%;
+  flex: 1 0 15em;
+  
+} 
+.rightcol {
+width: 48%;
+flex: 1 0 15em;
+
+}
+.negrito {
+  font-weight: bold;
+  text-align: center;
+}
+.contact_img {
+  size: 80%;
+}
+.faq {
+  overflow: auto;
+}
+.icons {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+#forecast {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#forecast td, #forecast th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#forecast tr:nth-child(even){background-color: #53b5e5;}
+
+#forecast th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #53b5e5;
+    color: white;
+}
+ img{
+   border-radius: 10px;
+   padding: 10px;
+   max-width: 100%;
+ }
