@@ -11,22 +11,6 @@
   <link rel="stylesheet" type="text/css" href="styles/medium-8.css" >
   <link rel="stylesheet" type="text/css" href="styles/large-8.css" >
   <script type="text/javascript" src="currentDate.js"></script>
-  <script>function windChill (){
-  
-var t = (parseInt(document.getElementById('highTemp').innerHTML) + parseFloat(document.getElementById('lowTemp').innerHTML)) / 2;
-
-var s = parseInt(document.getElementById('windSpeed').innerHTML);
-
-var r = Math.round(35.74 + 0.6215 * t - 35.75 * Math.pow(s, 0.16) + 0.4275 * t * Math.pow(s,0.16));
-
-document.getElementById('windResult')innerHTML = r ;
-}
-/*
-f = 35.74 + 0.6215 t - 35.75 s^0.16 + 0.4275 t s^0.16
-f = wind chill factor in F
-t is air average temp in F
-s in wind speend in mph
-*/
   </script>  
   <title>Take your Umbrella || Franklin</title>
 </head>
@@ -41,7 +25,7 @@ s in wind speend in mph
        <li><a href="franklin.html">Franklin</a></li>
        <li><a href="greenville.html">Greenville</a></li>
        <li><a href="springfield.html">Springfield</a></li>
-       <li><a href="storm_center.html">Storm Center</a></li>
+       <li><a href="stormcenter.html">Storm Center</a></li>
        <li><a href="gallery.html">Gallery</a></li>
      </ul>
   </nav>
@@ -53,10 +37,9 @@ s in wind speend in mph
      
       <section id="sec1" class="pspec"> 
     <div class="leftcol">  
-   <h3 class="negrito">Welcome! </h3> 
-  <p class="negrito">Here is your space to share your experiences to help other adventurers to find new places to grub!<br/>
-   Bellow you find experiences from other adventurers. Enjoy!!!
-  </p>
+   <h3 class="negrito">Hello! </h3> 
+  <p class="negrito">Here is a space to share your report about any storm or dangerous situation in our region. Helping others and if necessary receiving help!<br/>
+   </p>
    
   <p class="negrito">  Share With Us! <br/><br/>
   Name: <input type="text" name="name" size="30" required="required" pattern="" title="Número de segurança social"><br/><br/>
