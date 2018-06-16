@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Free Weather Page">
+  <meta name="keywords" content="HTML,CSS,JavaScript">
+  <meta name="author" content="Wagner Filgueiras">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" type="text/css" href="styles/main-6.css" >
+  <link rel="stylesheet" type="text/css" href="styles/medium-6.css" >
+  <link rel="stylesheet" type="text/css" href="styles/large-6.css" >
+  <script type="text/javascript" src="currentDate.js"></script>
+  <script>function windChill (){
+  
+var t = (parseInt(document.getElementById('highTemp').innerHTML) + parseFloat(document.getElementById('lowTemp').innerHTML)) / 2;
+
+var s = parseInt(document.getElementById('windSpeed').innerHTML);
+
+var r = Math.round(35.74 + 0.6215 * t - 35.75 * Math.pow(s, 0.16) + 0.4275 * t * Math.pow(s,0.16));
+
+document.getElementById('windResult')innerHTML = r ;
+}
+/*
+f = 35.74 + 0.6215 t - 35.75 s^0.16 + 0.4275 t s^0.16
+f = wind chill factor in F
+t is air average temp in F
+s in wind speend in mph
+*/
+  </script>  
+  <title>Take your Umbrella || Franklin</title>
+</head>
+<body>
+
+  <header id="cabecalho">  
+   <a href="franklin-6.html"><img src="logo_site.JPG" alt="logo_image" class="logo" ></a>
+    <!--button class="hamburger" onclick="toggleHam()">&#9776;</button-->
+  <nav>
+     <ul>
+      <li><a href="index.html">Home</a></li>
+       <li><a href="franklin.html">Franklin</a></li>
+       <li><a href="greenville.html">Greenville</a></li>
+       <li><a href="springfield.html">Springfield</a></li>
+       <li><a href="storm_center.html">Storm Center</a></li>
+       <li><a href="gallery.html">Gallery</a></li>
+     </ul>
+  </nav>
+    <section id="banner" class="">
+ <img src="https://images.pexels.com/photos/1080722/pexels-photo-1080722.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="farm_image" >
+    </section>
+  </header>            
+ 
+     
+      <section id="sec1" class="pspec"> 
+    <div class="leftcol">  
+   <h3 class="negrito">Welcome! </h3> 
+  <p class="negrito">Here is your space to share your experiences to help other adventurers to find new places to grub!<br/>
+   Bellow you find experiences from other adventurers. Enjoy!!!
+  </p>
+   
+  <p class="negrito">  Share With Us! <br/><br/>
+  Name: <input type="text" name="name" size="30" required="required" pattern="" title="Número de segurança social"><br/><br/>
+  Email: <input type="email" name="email" size="30" placeholder="youremail@email.com"><br/><br/>
+  Phone: <input type="tel" name="phone" size="11"><br/><br/>
+    Storm Date: <input type="date" name="date" size="8"><br/><br/>
+     Storm Type: <input list="browsers">
+
+<datalist id="browsers">
+  <option value="Flash Flood">
+  <option value="Hail">
+  <option value="Hurricane">
+  <option value="Thunderstorm">
+  <option value="Tornado">
+</datalist><br/><br/>
+    
+     Storm Severity: <input type="range" min="0" max="10"><br/><br/>
+    User in danger Level?<br/><input type="radio" name="yes" value="yes" checked>Yes<br>
+<input type="radio" name="yes" value="yes" checked>No<br>
+    <input type="radio" name="yes" value="yes" checked>Maybe<br>
+    <br/>
+    Storm Region: <select name="region">
+  <option value="default">Select Region</option>
+  <option value="Franklin">Franklin</option>
+  <option value="Greenville">Greenville</option>
+  <option value="Springfield">Springfield</option>
+    <br/><br/><br/>
+    
+</select>
+   <br/>
+     <br/>
+  <textarea name="comentários" rows="10" cols="40" maxlength="500">Share Your Experience Here</textarea> <br/>
+   <link rel="stylesheet" href="experience_share.jpg"> <br/>
+  <button type="" class="negrito">Submit</button> 
+  </div>
+  <div>
+  <img  class="storm_img" src="https://images.pexels.com/photos/1123445/pexels-photo-1123445.jpeg?cs=srgb&dl=calm-clouds-dawn-1123445.jpg&fm=jpg" alt="experience_share_img" width="500" />
+  </div>
+</section> <br/>
+
+ 
+   
+<footer class="footer-bar">
+   Contact information placeholder
+      999.999.9999
+      123 Main St. Anytown, US 99999
+      Google Map
+    
+    <section id="rights" class="rspec">&copy;2018 | All Rights Reserved | Take your Umbrella | Designed by Wagner Filgueiras |  <button onclick="currentDate();">Date</button>
+    </section>
+     
+  </footer>
+
+</body>
+</html>
