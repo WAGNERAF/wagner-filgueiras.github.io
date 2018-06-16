@@ -2,34 +2,23 @@
 @import url('https://fonts.googleapis.com/css?family=Krona+One');
 @import url('https://fonts.googleapis.com/css?family=Lobster');
 
- * {margin:0}
-header { background-color: #777; }
-h1 { margin-left: .75rem;   padding: .5rem; }
-.hamburger { display: block;position: absolute;top: 2.0rem;right: 1.25rem; }
 
-.navigation { list-style: none; padding-left: 0; }
-.navigation li { display: none; }
 
 /* When the responsive class is added to the unordered list on hamburger button click 
 placed in a media query in order to accomodate the toggle when in wider view*/
-@media only screen and (max-width: 37.5em) {
-    .navigation.responsive { position: relative; }
-    .navigation.responsive li { background-color: #eee; display: block; width: 100%; margin: 2px 0; border: 1px solid #ddd; }
-    .navigation.responsive li a {   padding: 1rem; text-align: center;  display: block; text-decoration:none; }
-    .navigation.responsive li a:hover { background-color: #ddd; }
-}
-
-@media only screen and (min-width: 37.5em) {
-    header, nav {   margin: 0 auto; max-width: 600px;   }
-    h1 { text-align: center; }
-    .hamburger { display: none; }
-    .navigation {   background-color: #333; overflow: hidden;   text-align: center; }
-    .navigation li { display: inline-block; margin-left: .25rem; }
-    .navigation a { display: block; color: #eee;    padding: .5rem; text-align: center; text-decoration: none;}
-    .navigation a:hover {   color: #000; background-color: #777;    }
+body {
+  
+   width: 960px;
+   margin: 0 auto;
+   
 }
 
 
+  .cabecalho {
+    font-family: 'Krona One';
+    padding: 10px;
+    line-height: 2px;
+}
   nav {
     background-color: #53b5e5;
     padding: 1em;
@@ -45,14 +34,14 @@ placed in a media query in order to accomodate the toggle when in wider view*/
     line-height: 2px;
     position: relative;
     object-position: center;
-    left: 150px;
+    left: 100px;
     
 
   }
   nav a {
     text-color: #FFFFFF;
     line-height: 2px;
-    text-decoration: nome;
+    text-decoration: none;
   }
 
   nav a:hover {
@@ -70,94 +59,34 @@ placed in a media query in order to accomodate the toggle when in wider view*/
     height:15%;
     left: 10px;
     border-color: black;
+  }  
+  #sec1, #sec2 {
+    background-color: #addcf3;
   }
-
-  .banner {
-    position: relative;
-    object-position: center;
-    margin-top: 0px;
-    left: -10px;
-    
+  .franklinimg {
+    text-align: center;
+    align-content: center;
+    align-items: center;
   }
-  
-  #sec1, #sec2, #sec3 {
-    background-color: #addcf3
+  .summary {
+    text-align: center;
+    align-content: center;
+    align-items: center;
   }
-   h1, h2, h3, h4, h5 {
-    /*color:  #FFFFFF;*/
-    color: #164a8a;
-    padding: 10px;
-  }
-  p {
-  padding: 10px;
-  } 
-  .pspec {
-    color: #164a8a;
-  }
-  #content {
-   width: 960px;
-   margin: 0 auto;
-   }
-   
-   }
-   .cabeÃ§alho {
-    font-family: 'Krona One';
-    padding: 10px;
-    line-height: 2px;
-   }
-   .leftcol, .rightcol {
-   width: 48%;
-   flex:1;
-   margin: .5em;
-   }        
-   footer{
-    object-position: center;
-   text-align: center;
-   width: 48%;
-   justify-content: center;
-   }
-   #sec1, #sec2, #sec3, footer { 
-  display: flex;
-  flex-flow: row wrap;
-  
- }
- .leftcol {
-  width: 48%;
-  flex: 1 0 15em;
-  
-} 
-.rightcol {
-width: 48%;
-flex: 1 0 15em;
-
-}
-.negrito {
-  font-weight: bold;
-  text-align: center;
-}
-.contact_img {
-  size: 80%;
-}
-.faq {
-  overflow: auto;
-}
-.icons {
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-}
-#forecast {
-    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
-}
-
-#forecast td, #forecast th {
+  .conditions {
+    font-size: 20px;
+    padding: 20px;
+    line-height: 2;
+  }  
+  #forecast td, #forecast th {
     border: 1px solid #ddd;
     padding: 8px;
+    background-color: white;
 }
 
-#forecast tr:nth-child(even){background-color: #53b5e5;}
+#forecast tr:nth-child(even){
+  background-color: white;
+}
 
 #forecast th {
     padding-top: 12px;
@@ -166,6 +95,35 @@ flex: 1 0 15em;
     background-color: #53b5e5;
     color: white;
 }
+#forecast {
+    align-items: center;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+  .pspec {
+    color: #164a8a;
+    padding: 10px;
+}
+ .articlenews{
+   text-align: center;
+   color:#696969 ;
+   justify-content: center;
+   align-items: center;
+   align-content: center;
+   background-color: #FFFFFF;
+   padding: 10px;
+   
+ }
+   .footer-bar{  
+   text-align: center;
+   color:#696969 ;
+   justify-content: center;
+   align-items: center;
+  align-content: center;
+  
+  padding: 10px;
+   }
  img{
    border-radius: 10px;
    padding: 10px;
@@ -176,31 +134,8 @@ flex: 1 0 15em;
 
 * { box-sizing: border-box;}  /* This wildcard applies to all elements ensuring a box layout model */
 
-body {
-  font-size: 16px;
-  
-}
-
 header, nav, main, footer { /* the comma between the selectors means apply the following CSS declarations to all of the listed elements */
-  max-width: ______; /* Declare the maximum width and other main element rules to limit the stretch on larger/wider views */
+  max-width: auto; /* Declare the maximum width and other main element rules to limit the stretch on larger/wider views */
 }
 
-header {}
-header h1 {}
-header img {}
-header .subheading {}
 
-nav {}
-nav button {}
-nav ul {}
-nav ul li {}
-nav ul li a {}
-nav ul li.active a {}
-nav ul li a:hover {}
-
-main {}
-main h2 {}
-main figure { margin: 0 0 .2rem 2%; width:96%; }
-main figure img { }
-
-footer {}
