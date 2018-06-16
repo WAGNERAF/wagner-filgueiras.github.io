@@ -19,18 +19,6 @@ placed in a media query in order to accomodate the toggle when in wider view*/
     .navigation.responsive li a:hover { background-color: #ddd; }
 }
 
-/* The following can be used in lieu of a button with a HTML entity which may not be dispalyed correctly in all browsers - or a SVG option is good - button size issue
-.hamburger { 
-    content: "";
-    position: absolute;
-    right: 1.5rem; top: 1.8rem;
-    display: block;
-    width: 1.25rem; height: 0;
-    -webkit-box-shadow: 1px 10px 1px 1px #eee,1px 16px 1px 1px #eee,1px 22px 1px 1px #eee;
-    box-shadow: 0 10px 0 1px #eee,0 16px 0 1px #eee,0 22px 0 1px #eee;
-}*/
-
-
 @media only screen and (min-width: 37.5em) {
     header, nav {   margin: 0 auto; max-width: 600px;   }
     h1 { text-align: center; }
@@ -42,7 +30,6 @@ placed in a media query in order to accomodate the toggle when in wider view*/
 }
 
 
-  
   nav {
     background-color: #53b5e5;
     padding: 1em;
@@ -191,7 +178,7 @@ flex: 1 0 15em;
 
 body {
   font-size: 16px;
-  ____________  /* Declare the base font-family */
+  
 }
 
 header, nav, main, footer { /* the comma between the selectors means apply the following CSS declarations to all of the listed elements */
