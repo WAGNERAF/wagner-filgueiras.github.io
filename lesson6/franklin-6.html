@@ -1,19 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Free Weather Page">
+  <meta name="keywords" content="HTML,CSS,JavaScript">
+  <meta name="author" content="Wagner Filgueiras">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="stylesheet" type="text/css" href="styles/main-6.css" >
   <link rel="stylesheet" type="text/css" href="styles/medium-6.css" >
   <link rel="stylesheet" type="text/css" href="styles/large-6.css" >
-  <script language="JavaScript" src="scriptsd/currentDate.js"></script>
+  <script type="text/javascript" src="currentDate.js"></script>
   
-  <title>Take your Umbrella || Home</title>
+  <title>Take your Umbrella || Franklin</title>
 </head>
 <body>
-<div id="content">
-  <header id="cabeçalho">  
+
+  <header id="cabecalho">  
    <a href="franklin-6.html"><img src="logo_site.JPG" alt="logo_image" class="logo" ></a>
-     <button class="hamburger" onclick="toggleHam()">&#9776;</button>
+    <!--button class="hamburger" onclick="toggleHam()">&#9776;</button-->
   <nav>
      <ul>
       <li><a href="index.html">Home</a></li>
@@ -24,27 +29,33 @@
        <li><a href="gallery.html">Gallery</a></li>
      </ul>
   </nav>
- <img src="https://images.pexels.com/photos/1080722/pexels-photo-1080722.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="river_image" class="banner" >
+    <section id="banner" class="">
+ <img src="https://images.pexels.com/photos/1080722/pexels-photo-1080722.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="farm_image" >
+    </section>
   </header>
 
 
 <section id="sec1" class="pspec">
-    <div class="leftcol"> 
-    <img src="https://images.pexels.com/photos/1115866/pexels-photo-1115866.jpeg?cs=srgb&dl=architecture-asphalt-avenue-1115866.jpg&fm=jpg" alt="picture_image" height="250px""/>
-    </div>
+ <div class="franklinimg"> 
+    <img src="https://images.pexels.com/photos/1115866/pexels-photo-1115866.jpeg?cs=srgb&dl=architecture-asphalt-avenue-1115866.jpg&fm=jpg" alt="picture_image" height="250px" >
+  </div>
+  
 
-    <div class="rightcol">
+  <section id="sec1" class="pspec">
+  <div class="summary">
     <h1> Franklin City</h1> 
     <h3>Weather Summary</h3>
     <div class="highlow">
-        <p> High: </p>
-        <p>Low: </p>
+      <font color="Red" size="5px"> High:90°F </font><br/><br/>
+   
+      <font color="Blue" size="5px"> Low: 66°F </font>
+      
       <div class="conditions">
-        <p>Precipitation:</p>  
-        <p>Wind Speed:</p>  
+        <p>Chance Precipitation: 0%</p>  
+        <p>Wind Speed: 5 mph SW</p>  
       </div>
     </div>
-  </section>
+  </div>
   
   
         
@@ -81,29 +92,30 @@
   </tbody>
       </table>
     </section>
-    </div>
-</section>
+  </section>
+    
+  
 <br/>
-<section id="sec3" class="pspec">
-    <div class="leftcol"> 
+<section id="sec2" class="pspec">
+    <div class="articlenews" > 
+       <h1> Franklin City News</h1> 
     <img src="https://images.pexels.com/photos/374710/pexels-photo-374710.jpeg?cs=srgb&dl=1-wtc-america-architecture-374710.jpg&fm=jpg" height="250"/>
-    </div>
-
-    <div class="rightcol">
-    <h1> Franklin City</h1> 
+       
     <p> The fourth annual Kids Arts Festival of Tennessee is scheduled for this Saturday, June 2nd, at Pinkerton Park. The Festival, a joint venture between the City of Franklin Parks Department and the Williamson County Cultural Arts Commission is from 10 a.m. until 3 p.m. and is free and open to the public. </p>
-  </main>
+  <br/>
+  </div>
+  </section>  
+   
 <footer class="footer-bar">
    Contact information placeholder
       999.999.9999
       123 Main St. Anytown, US 99999
       Google Map
     
-    <section >&copy;2018 | All Rights Reserved | Site Title | <span id="currentdate" >Current Date Placeholder</span>
+    <section id="rights" class="rspec">&copy;2018 | All Rights Reserved | Take your Umbrella | Designed by Wagner Filgueiras |  <button onclick="currentDate();">Date</button>
     </section>
-  </div>    
+     
   </footer>
 
-</div>
 </body>
 </html>
