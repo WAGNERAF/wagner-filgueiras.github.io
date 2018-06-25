@@ -39,13 +39,14 @@ body {
 
   }
   nav a {
-    text-color: #FFFFFF;
+    color: #164a8a;
     line-height: 2px;
     text-decoration: none;
   }
 
   nav a:hover {
-    color: #ffbe1c;
+   
+    color: #ffffff;
 
 }
   nav ul {
@@ -105,6 +106,14 @@ body {
     color: #164a8a;
     padding: 10px;
 }
+#High {
+  color: red;
+  font-size: 30px;
+}
+#Low {
+  color: blue;
+  font-size: 30px;
+}
  .articlenews{
    text-align: center;
    color:#696969 ;
@@ -135,7 +144,7 @@ body {
 * { box-sizing: border-box;}  /* This wildcard applies to all elements ensuring a box layout model */
 
 header, nav, main, footer { /* the comma between the selectors means apply the following CSS declarations to all of the listed elements */
-  max-width: auto; /* Declare the maximum width and other main element rules to limit the stretch on larger/wider views */
+  max-width: 100%; /* Declare the maximum width and other main element rules to limit the stretch on larger/wider views */
 }
 
 
