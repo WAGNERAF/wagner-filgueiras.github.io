@@ -1,0 +1,219 @@
+
+@import url('https://fonts.googleapis.com/css?family=Krona+One');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+
+
+
+@media screen and (max-width: 767px) {
+
+  @media screen and (max-width: 767px) {
+  header .control-nav {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    display: block;
+    width: 30px;
+    padding: 5px 0;
+    border: solid #333;
+    border-width: 3px 0;
+    z-index: 2;
+    cursor: pointer;
+  }
+
+  header .control-nav:before {
+    content: "";
+    display: block;
+    height: 3px;
+    background: #333;
+  }
+
+  header .control-nav-close {
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    display: block;
+    z-index: 1;
+    background: rgba(0,0,0,0.4);
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+    -webkit-transform: translate(100%, 0);
+    -ms-transform: translate(100%, 0);
+    transform: translate(100%, 0);
+  }
+
+  header nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 250px;
+    border-left: 1px solid #ccc;
+    background: #fff;
+    overflow-x: auto;
+    z-index: 2;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+    -webkit-transform: translate(100%, 0);
+    -ms-transform: translate(100%, 0);
+    transform: translate(100%, 0);
+  }
+}
+#control-nav:checked ~ .control-nav-close {
+  -webkit-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+
+#control-nav:checked ~ nav {
+  -webkit-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+}
+/* When the responsive class is added to the unordered list on hamburger button click 
+placed in a media query in order to accomodate the toggle when in wider view*/
+body {
+  
+   width: 960px;
+   margin: 0 auto;
+   
+}
+
+  .cabecalho {
+    font-family: 'Krona One';
+    padding: 10px;
+    line-height: 2px;
+    
+}
+  nav {
+    background-color: #53b5e5;
+    padding: 1em;
+    margin-top: -50px;
+
+   }
+  nav li{
+    font-family:'Lobster';
+    font-size: 1.6em;
+    list-style-type: none;
+    display: inline-block;
+    padding: .6em .6em;
+    line-height: 2px;
+    position: relative;
+    object-position: center;
+    left: 100px;
+    
+
+  }
+  nav a {
+    color: #164a8a;
+    line-height: 2px;
+    text-decoration: none;
+  }
+
+  nav a:hover {
+   
+    color: #ffffff;
+
+}
+  nav ul {
+    margin: 0; 
+    align-items: center;
+  }
+  .logo {
+    position:relative;    
+    background-color: white;
+    width: 15%;
+    height:15%;
+    left: 10px;
+    border-color: black;
+  }  
+  #sec1, #sec2 {
+    background-color: #addcf3;
+  }
+  .franklinimg {
+    text-align: center;
+    align-content: center;
+    align-items: center;
+  }
+  .summary {
+    text-align: center;
+    align-content: center;
+    align-items: center;
+  }
+  .conditions {
+    font-size: 20px;
+    padding: 20px;
+    line-height: 2;
+  }  
+  #forecast td, #forecast th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    background-color: white;
+}
+
+#forecast tr:nth-child(even){
+  background-color: white;
+}
+
+#forecast th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #53b5e5;
+    color: white;
+}
+#forecast {
+    align-items: center;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+  .pspec {
+    color: #164a8a;
+    padding: 10px;
+}
+#High {
+  color: red;
+  font-size: 30px;
+}
+#Low {
+  color: blue;
+  font-size: 30px;
+}
+ .articlenews{
+   text-align: center;
+   color:#696969 ;
+   justify-content: center;
+   align-items: center;
+   align-content: center;
+   background-color: #FFFFFF;
+   padding: 10px;
+   
+ }
+   .footer-bar{  
+   text-align: center;
+   color:#696969 ;
+   justify-content: center;
+   align-items: center;
+  align-content: center;
+  
+  padding: 10px;
+   }
+ img{
+   border-radius: 10px;
+   padding: 10px;
+   max-width: 100%;
+ }
+/* Delete these CSS comments after reading. */
+/* This main css file contains the default rules and is geared toward the small/phone view */
+
+* { box-sizing: border-box;}  /* This wildcard applies to all elements ensuring a box layout model */
+
+header, nav, main, footer { /* the comma between the selectors means apply the following CSS declarations to all of the listed elements */
+  max-width: 100%; /* Declare the maximum width and other main element rules to limit the stretch on larger/wider views */
+}
+
+
