@@ -2,13 +2,14 @@
 <html><!DOCTYPE html>
 <html>
 <head>
-  <script language="JavaScript" src="scripts/currentDate1.js"></script>
+  
   <link rel="stylesheet" type="text/css" href="styles/normalize.css" >
   <link rel="stylesheet" type="text/css" href="styles/main.css" >
   <link rel="stylesheet" type="text/css" href="styles/medium.css" >
   <link rel="stylesheet" type="text/css" href="styles/large.css" >
-  <script type="text/javascript" src="currentDate.js"></script>
-  
+  <script type="text/javascript" src="scripts/currentDate.js"></script>
+  <script type="text/javascript" src="scripts/windchill.js"></script>
+     
   <title>Take your Umbrella || Franklin</title>
 </head>
 <body>
@@ -43,23 +44,24 @@
  <div class="franklinimg"> 
     <img src="https://images.pexels.com/photos/1115866/pexels-photo-1115866.jpeg?cs=srgb&dl=architecture-asphalt-avenue-1115866.jpg&fm=jpg" alt="picture_image" height="250" >
   </div>
-  
 
-  
+ 
   <div class="summary">
     <h1> Franklin City</h1> 
     <h3>Weather Summary</h3>
-    <div class="highlow">
-      <span id="High"> High: </span><br/><br/>
-   
-      <span id="Low"> Low: </span>
-      
-      <div class="conditions">
-        <p>Precipitation:</p>  
-        <p>Wind Speed:</p>  
-      </div>
+    <div class="highform">
+       <p>High: <span id="High">81</span>&deg;F</p>
+    </div>   
+    <div class="lowform">   
+       <p>Low: <span id="Low">49</span>&deg;F</p>
     </div>
-  </div>
+    <div class="conditions">   
+       <p>Wind Speed: <span id="WindSpeed">4 </span> mph<span id="temp-windDirection"> NW</span></p>
+       
+       
+       <p>Wind Chill: <span id="Windchill"></span>&deg;F <br/><button type="button" onclick="windchillcalc()" >Calc Wind Chill</button><br/><br/></p>
+    </div> 
+           
   </section>
   
         
@@ -109,16 +111,8 @@
   <br/>
   </div>
   </section>  
-  <div class="footer-bar">
-   Contact information placeholder
-      999.999.9999
-      123 Main St. Anytown, US 99999
-      Google Map
-   
-    
-    <section id="rights" class="rspec">&copy;2018 | All Rights Reserved | Site Title | <button onclick="currentDate()">Date</button> <span id="dateResult"> </span>
-    </section>
-     </div>
-     
+
+  <footer includefile="footer.html">
+  </footer>
+  <script src="scripts/include.js"></script>  
   </body>
-  
