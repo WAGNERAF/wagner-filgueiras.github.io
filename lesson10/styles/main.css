@@ -143,11 +143,20 @@ body {
     align-content: center;
     align-items: center;
   }
+  .highform {
+  color: red;
+  font-size: 20px;
+  }
+  .lowform {
+  color: blue;
+  font-size: 20px;
+  }
   .conditions {
     font-size: 20px;
-    padding: 20px;
     line-height: 2;
-  }  
+    font-weight: bold;
+  } 
+  
   #forecast td, #forecast th {
     border: 1px solid #ddd;
     padding: 8px;
@@ -175,14 +184,8 @@ body {
     color: #164a8a;
     padding: 10px;
 }
-#High {
-  color: red;
-  font-size: 30px;
-}
-#Low {
-  color: blue;
-  font-size: 30px;
-}
+
+
  .articlenews{
    text-align: center;
    color:#696969 ;
@@ -214,6 +217,26 @@ body {
 
 header, nav, main, footer { /* the comma between the selectors means apply the following CSS declarations to all of the listed elements */
   max-width: 100%; /* Declare the maximum width and other main element rules to limit the stretch on larger/wider views */
+}
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 300px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 600px;
+    height: 200px;
+}
+
+div.gallery {
+    padding: 2px;
+    text-align: center;
 }
 
 
