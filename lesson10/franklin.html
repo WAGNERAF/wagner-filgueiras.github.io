@@ -10,7 +10,7 @@
   <script type="text/javascript" src="scripts/currentDate.js"></script>
   <script type="text/javascript" src="scripts/windchill.js"></script>
      
-  <title>Take your Umbrella || Franklin</title>
+  <title>Franklin ||Take your Umbrella</title>
 </head>
 <body>
         
@@ -22,12 +22,12 @@
   <label for="control-nav" class="control-nav"></label>
   <label for="control-nav" class="control-nav-close"></label>
    
-   <a href="franklin-6.html"><img src="logo_site.JPG" alt="logo_image" class="logo" ></a>
+   <a href="index.html"><img src="logo_site.JPG" alt="logo_image" class="logo" ></a>
     
   <nav class="float-r">
     <ul class="list-auto">
       <li><a href="index.html">Home</a></li>
-       <li><a href="franklin.html">Franklin</a></li>
+       <li><a href="franklin.html" class="active">Franklin</a></li>
        <li><a href="greenville.html">Greenville</a></li>
        <li><a href="springfield.html">Springfield</a></li>
        <li><a href="stormcenter.html">Storm Center</a></li>
@@ -41,26 +41,28 @@
 
 
 <section id="sec1" class="pspec">
- <div class="franklinimg"> 
-    <img src="https://images.pexels.com/photos/1115866/pexels-photo-1115866.jpeg?cs=srgb&dl=architecture-asphalt-avenue-1115866.jpg&fm=jpg" alt="picture_image" height="250" >
-  </div>
-
  
   <div class="summary">
-    <h1> Franklin City</h1> 
+     <h2> Franklin Weather</h2>
     <h3>Weather Summary</h3>
-    <div class="highform">
-       <p>High: <span id="High">81</span>&deg;F</p>
+    <div id="highform">
+       High: <span id="High">81</span>&deg;F
     </div>   
-    <div class="lowform">   
-       <p>Low: <span id="Low">49</span>&deg;F</p>
+    <div id="lowform">   
+       Low: <span id="Low">49</span>&deg;F
     </div>
-    <div class="conditions">   
-       <p>Wind Speed: <span id="WindSpeed">4 </span> mph<span id="temp-windDirection"> NW</span></p>
-       
-       
-       <p>Wind Chill: <span id="Windchill"></span>&deg;F <br/><button type="button" onclick="windchillcalc()" >Calc Wind Chill</button><br/><br/></p>
+    <div id="conditions">   
+       Wind Speed: <span id="WindSpeed">4 </span> mph<span id="temp-windDirection"> NW</span>   <br/> 
+          
+      Wind Chill: <span id="Windchill1"></span>&deg;F <br/><button type="button" onclick="windchillcalc()" >Calc Wind Chill</button>
     </div> 
+     
+    <div> 
+    <img class="weatherimg" src="https://images.pexels.com/photos/5166/city-road-street-italy.jpg?cs=srgb&dl=city-endless-historical-5166.jpg&fm=jpg" alt="franklin_picture" width="300">
+  </div> 
+  </div>
+    
+    <br/>
            
   </section>
   
@@ -112,7 +114,23 @@
   </div>
   </section>  
 
+  <div class="footer-bar">
+   Contact information placeholder
+      999.999.9999
+      123 Main St. Anytown, US 99999
+      Google Map
+    
+
+ <section id="rights" class="rspec">&copy;2018 | All Rights Reserved | Site Title | <button onclick="currentDate()">Date</button> <span id="dateResult"> </span>
+ </section>
+ </div>
+
+  </body>
+ </html>
+<!--
   <footer includefile="footer.html">
   </footer>
   <script src="scripts/include.js"></script>  
-  </body>
+  </body> 
+
+  -->
