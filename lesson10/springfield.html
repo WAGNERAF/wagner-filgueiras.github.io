@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html><!DOCTYPE html>
+<html>
+<head>
+  
+  <link rel="stylesheet" type="text/css" href="styles/normalize.css" >
+  <link rel="stylesheet" type="text/css" href="styles/main.css" >
+  <link rel="stylesheet" type="text/css" href="styles/medium.css" >
+  <link rel="stylesheet" type="text/css" href="styles/large.css" >
+  <script type="text/javascript" src="scripts/currentDate.js"></script>
+  <script type="text/javascript" src="scripts/windchill.js"></script>
+     
+  <title>Springfield ||Take your Umbrella</title>
+</head>
+<body >
+        
+          
+          
+ <header id="cabecalho"> 
+
+ <input type="checkbox" id="control-nav" style="display: none;" />
+  <label for="control-nav" class="control-nav"></label>
+  <label for="control-nav" class="control-nav-close"></label>
+   
+   <a href="index.html"><img src="logo_site.JPG" alt="logo_image" class="logo" ></a>
+    
+  <nav class="float-r">
+    <ul class="list-auto">
+      <li><a href="index.html">Home</a></li>
+       <li><a href="franklin.html">Franklin</a></li>
+       <li><a href="greenville.html">Greenville</a></li>
+       <li><a href="springfield.html">Springfield</a></li>
+       <li><a href="stormcenter.html">Storm Center</a></li>
+       <li><a href="gallery.html">Gallery</a></li>
+     </ul>
+  </nav>
+    <section id="banner" class="">
+ <img src="https://images.pexels.com/photos/1080722/pexels-photo-1080722.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="farm_image" >
+    </section>
+  </header>
+
+
+<section id="sec1" class="pspec">
+ 
+  <div class="summary">
+     <h2> Springfield Weather</h2>
+    <h3>Weather Summary</h3>
+    <div id="highform">
+       High: <span id="High">81</span>&deg;F
+    </div>   
+    <div id="lowform">   
+       Low: <span id="Low">49</span>&deg;F
+    </div>
+    <div id="conditions">   
+       Wind Speed: <span id="WindSpeed">4 </span> mph<span id="temp-windDirection"> NW</span>   <br/> 
+          
+      Wind Chill: <span id="Windchill1"></span>&deg;F <br/><button type="button" onclick="windchillcalc()" >Calc Wind Chill</button>
+    </div> 
+     
+    <div> 
+    <img class="weatherimg" src="https://images.pexels.com/photos/5256/city-cars-road-houses.jpg?cs=srgb&dl=boardwalk-buildings-cars-5256.jpg&fm=jpg" alt="springfield_city picture" width="300">
+  </div> 
+  </div>
+    
+    <br/>
+           
+  </section>
+  
+        
+    <section id="forecast">
+      <h3>Ten Day Forecast</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Day 1</th>
+            <th>Day 2</th>
+            <th>Day 3</th>
+            <th>Day 4</th>
+            <th>Day 5</th>
+            <th>Day 6</th>
+            <th>Day 7</th>
+            <th>Day 8</th>
+            <th>Day 9</th>
+            <th>Day 10</th>
+          </tr>
+  </thead>
+        <tbody>  
+          <tr>
+            <td>89&deg;F</td>
+            <td>87&deg;F</td>
+            <td>78&deg;F</td>
+            <td>75&deg;F</td>
+            <td>72&deg;F</td>
+            <td>72&deg;F</td>
+            <td>79&deg;F</td>
+            <td>83&deg;F</td>
+            <td>85&deg;F</td>
+            <td>89&deg;F</td>
+          </tr>
+  </tbody>
+      </table>
+    </section>
+  
+    
+  
+<br/>
+<section id="sec2" class="pspec">
+    <div class="articlenews" > 
+       <h1> Springfield City News</h1> 
+    <img src="https://images.pexels.com/photos/374710/pexels-photo-374710.jpeg?cs=srgb&dl=1-wtc-america-architecture-374710.jpg&fm=jpg" height="250" alt="city_picture" />
+       
+    <p> We'll get close, but Springfield will likely continue its nearly four-year stretch of days below 100 degrees through the current heat wave.
+
+"A hundred degrees is not out of the question, but the big story is the dangerous heat indices we'll see over the next few days," said Mike Albano, meteorologist at the National Weather Service in Springfield.  </p>
+  <br/>
+  </div>
+  </section>  
+
+  <div class="footer-bar">
+   Contact information placeholder
+      999.999.9999
+      123 Main St. Anytown, US 99999
+      Google Map
+    
+
+ <section id="rights" class="rspec">&copy;2018 | All Rights Reserved | Springfield || Take your Umbrella | <button onclick="currentDate()">Date</button> <span id="dateResult"> </span>
+ </section>
+ </div>
+
+  </body>
+ </html>
+<!--
+  <footer includefile="footer.html">
+  </footer>
+  <script src="scripts/include.js"></script>  
+  </body> 
+
+  -->
