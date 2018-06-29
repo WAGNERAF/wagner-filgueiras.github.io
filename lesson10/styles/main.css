@@ -145,7 +145,7 @@ body {
     float: center;
   }
 
-  div.block_sections h2 {
+  div.block_sections h2, h3 {
     padding-left: 10px;
   }
 
