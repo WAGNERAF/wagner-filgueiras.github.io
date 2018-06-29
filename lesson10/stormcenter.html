@@ -48,15 +48,17 @@
   Email: <input type="email" name="email" size="30" placeholder="youremail@email.com"><br/><br/>
   Phone: <input type="tel" name="phone" size="11" placeholder="xxx-xxx-xxx"><br/><br/>
     Storm Date: <input type="date" name="date" size="8"><br/><br/>
-     Storm Type: <input list="browsers" placeholder="Click to Select">
+     
+    Storm Type: <select name="stormtype">    
+  <option value="default">Select Type</option>
+  <option value="Flash Flood">Flash Flood</option>
+  <option value="Hail">Hail</option>
+  <option value="Hurricane">Hurricane</option>
+  <option value="Thunderstorm">Thunderstorm</option> 
+  <option value="Tornado">Tornado</option> 
+</select> 
 
-<datalist id="browsers">
-  <option value="Flash Flood">
-  <option value="Hail">
-  <option value="Hurricane">
-  <option value="Thunderstorm">
-  <option value="Tornado">
-</datalist><br/><br/>
+<br/><br/>
     
      Storm Severity: <input type="range" min="0" max="10"><br/><br/>
     User in danger Level?<br/><input type="radio" name="yes" value="yes" checked>Yes<br>
