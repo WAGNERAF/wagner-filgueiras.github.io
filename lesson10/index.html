@@ -12,7 +12,9 @@
   <link rel="stylesheet" type="text/css" href="styles/large.css" >
   <script type="text/javascript" src="scripts/currentDate.js"></script>
   <script type="text/javascript" src="scripts/windchill.js"></script>
-   
+  <script type="text/javascript" src="scripts/weather.js"></script>
+
+
   <title>Home ||Take your Umbrella</title>
 </head>
 <body id="home-active">
@@ -30,18 +32,21 @@
        <li><a href="gallery.html">Gallery</a></li>
      </ul>
   </nav>
-    <section id="banner" class="">
+    <section id="banner">
  <img src="https://images.pexels.com/photos/1080722/pexels-photo-1080722.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="farm_image" >
     </section>
   </header>   
 
     <!--- ******* Franklin City Block Information ******* -->
-    <div class="block_sections">
-    <a href="franklin.html">
+   <div class="block_sections">
+   
     <div class="leftcol">
-    <h2> Franklin City</h2>
-    <img src="https://images.pexels.com/photos/5166/city-road-street-italy.jpg?cs=srgb&dl=city-endless-historical-5166.jpg&fm=jpg" alt="franklin_city picture" width="300">
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <a href="franklin.html"></a><h2> Franklin City - Est.<span id="franklin-founded"></span></h2></a>
+    
+    <h3>"<span id="franklin-motto"></span>"</h3>
+    <a href="franklin.html"><img src="https://images.pexels.com/photos/5166/city-road-street-italy.jpg?cs=srgb&dl=city-endless-historical-5166.jpg&fm=jpg" alt="franklin_city picture" width="300"></a>
+     
+    <p>Franklin City population is about <span id="franklin-population"></span>.<br/> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
    </div>
     
     <div class="summary">
@@ -56,7 +61,9 @@
     <div id="conditions">   
        Wind Speed: <span id="WindSpeed">4 </span> mph<span id="temp-windDirection"> NW</span>   -  
           
-      Wind Chill: <span id="Windchill1"></span>&deg;F <br/></a><button type="button" onclick="windchillcalc()" >Calc Wind Chill</button>
+       Wind Chill: <button type="button" onclick="windchillcalc()" >Calc Wind Chill</button><span id="Windchill1"></span>&deg;F <br/>
+
+       Annual Rainfall: <span id="franklin-rainfall"></span> inches per year
     </div> 
     </div>  
     </div> 
@@ -66,9 +73,12 @@
     <div class="block_sections">
     <a href="greenville.html">
     <div class="rightcol">
-    <h2> Greenville City</h2>
-    <img src="https://images.pexels.com/photos/5256/city-cars-road-houses.jpg?cs=srgb&dl=boardwalk-buildings-cars-5256.jpg&fm=jpg" alt="greenville_city picture" width="300">
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <a href="greenville.html"></a><h2> Greenville City - Est.<span id="greenville-founded"></span></h2></a>
+    
+    <h3>"<span id="greenville-motto"></span>"</h3>
+    <a href="greenville.html"><img src="https://images.pexels.com/photos/5166/city-road-street-italy.jpg?cs=srgb&dl=city-endless-historical-5166.jpg&fm=jpg" alt="greemville_city picture" width="300"></a>
+     
+    <p>Greenville City population is about <span id="greenville-population"></span>.<br/> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
    </div>
 
     <div class="summary">
@@ -83,7 +93,9 @@
     <div id="conditions">   
        Wind Speed: <span id="WindSpeed">4 </span> mph<span id="temp-windDirection"> NW</span>   -  
           
-      Wind Chill: <span id="Windchill2"></span>&deg;F <br/><button type="button" onclick="windchillcalc()" >Calc Wind Chill</button>
+       Wind Chill: <button type="button" onclick="windchillcalc()" >Calc Wind Chill</button><span id="Windchill1"></span>&deg;F <br/>
+
+       Annual Rainfall: <span id="franklin-rainfall"></span> inches per year
     </div> 
     </div>  
     </div>  
@@ -96,7 +108,7 @@
     <div class="leftcol">
     <h2> Springfield City</h2>
     <img src="https://images.pexels.com/photos/5166/city-road-street-italy.jpg?cs=srgb&dl=city-endless-historical-5166.jpg&fm=jpg" alt="franklin_city picture" width="300">
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <p>Springfield City population is about <span id="greenville-population"></span>.<br/> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
    </div>
     
     <div class="summary">
@@ -111,8 +123,9 @@
     <div id="conditions">   
        Wind Speed: <span id="WindSpeed">4 </span> mph<span id="temp-windDirection"> NW</span>   -  
           
-      Wind Chill: <span id="Windchill3"></span>&deg;F <br/><button type="button" onclick="windchillcalc()" >Calc Wind Chill</button>
-    </div> 
+       Wind Chill: <button type="button" onclick="windchillcalc()" >Calc Wind Chill</button><span id="Windchill1"></span>&deg;F <br/>
+
+       Annual Rainfall: <span id="franklin-rainfall"></span> inches per year
     </div>  
     </div> 
     <br/>
