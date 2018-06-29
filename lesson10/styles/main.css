@@ -233,15 +233,17 @@ p {
    padding: 10px;
    
  }
-   .footerbar {  
+    .footerbar {  
    text-align: center;
    color:#696969 ;
    justify-content: center;
    align-items: center;
    align-content: center;
-   text-decoration: none;
-  
-  padding: 10px;
+   text-decoration: none;  
+   padding: 10px;
+   align-content: center;
+   align-items: center;
+
    }
  img{
    border-radius: 10px;
