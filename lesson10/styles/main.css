@@ -141,10 +141,7 @@ body {
   #sec1, #sec2 {
     background-color: #addcf3;
   }
-  div.block_sections img {
-    float: center;
-  }
-
+ 
   div.block_sections h2 {
     padding-left: 10px;
   }
