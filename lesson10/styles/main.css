@@ -145,7 +145,7 @@ body {
     float: center;
   }
 
-  div.block_sections h2, h3 {
+  div.block_sections h2 {
     padding-left: 10px;
   }
 
@@ -165,22 +165,22 @@ body {
     align-items: center;
   
   }
-  #highform {
+  .highform {
   color: red;
   font-size: 20px;
   
 }
-  #lowform {
+  .lowform {
   color: blue;
   font-size: 20px;
   
   }
-  #conditions {
+  .conditions {
     font-size: 20px;
     line-height: 2;
     font-weight: bold;
   } 
-  #windchill {
+  .windchill {
     font-size: 20px;
     line-height: 2;
     font-weight: bold;
@@ -233,7 +233,7 @@ p {
    padding: 10px;
    
  }
-    .footerbar {  
+   .footerbar {  
    text-align: center;
    color:#696969 ;
    justify-content: center;
@@ -262,6 +262,7 @@ p {
 header, nav, main, footer { /* the comma between the selectors means apply the following CSS declarations to all of the listed elements */
   max-width: 100%; /* Declare the maximum width and other main element rules to limit the stretch on larger/wider views */
 }
+
 div.gallery {
     margin: 5px;
     border: 1px solid #ccc;
