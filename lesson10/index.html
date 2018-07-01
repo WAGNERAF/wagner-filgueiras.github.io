@@ -13,6 +13,7 @@
   <script src="scripts/currentDate.js"></script>
   <script src="scripts/windchill.js"></script>
   <script src="scripts/weather.js"></script>
+  <script src="scripts/include.js"></script>
 
 
   <title>Home ||Take your Umbrella</title>
@@ -52,16 +53,16 @@
      
     <h3>Weather Summary</h3>
     <div class="highform">
-       High: <span id="Franklin-High">81</span>&deg;F
+       High: <span id="franklin-high">81</span>&deg;F
     </div>   
     <div class="lowform">   
-       Low: <span id="Franklin-Low">49</span>&deg;F
+       Low: <span id="franklin-low">49</span>&deg;F
     </div>
     <div class="conditions">   
-       Wind Speed: <span id="Franklin-WindSpeed">4 </span> mph<span id="Franklin-windDirection"> NW</span><br/>  
+       Wind Speed: <span id="franklin-wind-speed">4 </span> mph<span id="franklin-wind-direction"> NW</span><br/>  
           
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      Wind Chill: <span id="Franklin-Windchill"></span>&deg;F <br/>
+      Wind Chill: <span id="franklin-windchill"></span>&deg;F <br/>
 
 
        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; 
@@ -86,18 +87,21 @@
      
     <h3>Weather Summary</h3>
     <div class="highform">
-       High: <span class="High">81</span>&deg;F
+       High: <span class="greenville-high">81</span>&deg;F
     </div>   
     <div class="lowform">   
-       Low: <span class="Low">49</span>&deg;F
+       Low: <span class="greenville-low">49</span>&deg;F
     </div>
     <div class="conditions">   
-       Wind Speed: <span id="WindSpeed">4 </span> mph<span id="temp-windDirection"> NW</span>   -  
+       Wind Speed: <span id="greenville-wind-speed">4 </span> mph<span id="franklin-wind-direction"> NW</span><br/>  
           
-       Wind Chill: <button type="button" onclick="windchillcalc()" >Calc Wind Chill</button><span id="Windchill2"></span>&deg;F <br/>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      Wind Chill: <span id="greenville-windchill"></span>&deg;F <br/>
 
+
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; 
        Annual Rainfall: <span id="greenville-rainfall"></span> inches per year
-    </div> 
+    </div>  
     </div>  
     </div>  
     <br/>
@@ -117,25 +121,28 @@
      
     <h3>Weather Summary</h3>
     <div class="highform">
-       High: <span class="High">81</span>&deg;F
+       High: <span class="springfield-high">81</span>&deg;F
     </div>   
     <div class="lowform">   
-       Low: <span class="Low">49</span>&deg;F
+       Low: <span class="springfield-low">49</span>&deg;F
     </div>
     <div class="conditions">   
-       Wind Speed: <span id="WindSpeed">4 </span> mph<span id="temp-windDirection"> NW</span>   -  
+       Wind Speed: <span id="springfield-wind-speed">4 </span> mph<span id="springfield-wind-direction"> NW</span><br/>  
           
-       Wind Chill: <button type="button" onclick="windchillcalc()" >Calc Wind Chill</button><span id="Windchill3"></span>&deg;F <br/>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      Wind Chill: <span id="springfield-windchill"></span>&deg;F <br/>
 
+
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; 
        Annual Rainfall: <span id="springfield-rainfall"></span> inches per year
-    </div>
     </div>  
-    </div> 
+    </div>  
+    </div>  
     <br/>
   
   <footer includefile="footer.html">
   </footer>
-  <script src="scripts/include.js"></script>
+  
 
  
 
