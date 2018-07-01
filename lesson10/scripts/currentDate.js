@@ -1,13 +1,10 @@
 function currentDate() {
+  var d = new Date();
+  var weekday = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+  var n = weekday[d.getDay()];
+  var month = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+  var m = month[d.getMonth()];
+  return (n + ", " + d.getDate() + " " + m + " " + d.getFullYear());
+  }
 
-
-dayName = new Array ("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday");
-monName = new Array ("January", "Febuary", "March", "April", "May", "June", "July", "August", "September", "November", "December");
-now = new Date;
-
-document.getElementById("dateResult").innerHTML = ( dayName[now.getDay() ] + ", " + now.getDate () + " " + monName [now.getMonth() ]   + " " + now.getFullYear ());
-}
-
-
-
-
+  document.getElementById("currentdate").innerHTML = currentDate();
