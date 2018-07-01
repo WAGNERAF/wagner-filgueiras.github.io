@@ -1,13 +1,22 @@
+<script>
+	window.onload = init;
+
+function init() {
+    var datetime = document.getElementById("datetime");
+    var now = new Date();
+    datetime.innerHTML = now;
+}
+</script>
+
 <div class="footerbar">
    Wagner Filgueiras - CIT 230 - placeholder
       999.999.9999
       123 Main St. Anytown, US 99999
       Google Map
     
+
+ &copy;2018 | All Rights Reserved | Take your Umbrella | <div id="datetime"></div>
  
- &copy;2018 | All Rights Reserved | Take your Umbrella | <span id="date-result"></span><script src="scripts/datetime.js"></script>
- <script type="text/javascript" src="../scripts/currentDate.js"></script>
-   <script src="../scripts/datetime.js"></script>
  </div>
 
 
