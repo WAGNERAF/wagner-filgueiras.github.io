@@ -10,8 +10,6 @@ function franklinWindchill(){
 
 document.getElementById("franklin-windchill").innerHTML = franklinWindchill();
 
-
-
 function greenvilleWindchill(){
     var t = (parseInt(document.getElementById("greenville-high").innerHTML) + parseInt(document.getElementById("greenville-low").innerHTML)) / 2;
 
@@ -22,7 +20,7 @@ function greenvilleWindchill(){
   
 }
 
-document.getElementById("greenville-windchill").innerHTML = franklinWindchill();
+document.getElementById("greenville-windchill").innerHTML = greenvilleWindchill();
 
 
 
@@ -36,7 +34,7 @@ function springfieldWindchill(){
   
 }
 
-document.getElementById("springfield-Windchill").innerHTML = franklinWindchill();
+document.getElementById("springfield-windchill").innerHTML = springfieldWindchill();
 
 
 
