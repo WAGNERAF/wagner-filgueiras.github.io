@@ -6,11 +6,9 @@
   <link rel="stylesheet" type="text/css" href="styles/main.css" >
   <link rel="stylesheet" type="text/css" href="styles/medium.css" >
   <link rel="stylesheet" type="text/css" href="styles/large.css" >
-  <script  src="scripts/currentDate.js"></script>
-  <script  src="scripts/windchill.js"></script>
-  <script  src="scripts/weather.js"></script>
+  
      
-  <title>Franklin ||Take your Umbrella</title>
+  <title>Greenville ||Take your Umbrella</title>
 </head>
 <body>
         
@@ -27,15 +25,15 @@
      <h2> Greenville Weather</h2>
     <h3>Weather Summary</h3>
     <div class="highform">
-       High: <span id="High">81</span>&deg;F
+       High: <span id="greenville-high">81</span>&deg;F
     </div>   
     <div class="lowform">   
-       Low: <span id="Low">49</span>&deg;F
+       Low: <span id="grrenville-low">49</span>&deg;F
     </div>
     <div class="conditions">   
-       Wind Speed: <span id="WindSpeed">4 </span> mph<span id="temp-windDirection"> NW</span>   <br/> 
+       Wind Speed: <span id="greenville-wind-speed">4 </span> mph<span id="greenville-wind-direction"> NW</span>   <br/> 
           
-      Wind Chill: <span id="Windchill1"></span>&deg;F <br/><button type="button" onclick="windchillcalc()" >Calc Wind Chill</button>
+      Wind Chill: <div id="greenville-windchill"></div>&deg;F <br/>
     </div> 
      
     <div> 
@@ -99,10 +97,15 @@ All it takes is a downed tree, a lightning strike or overstressed equipment for 
   </div>
   </section>  
 
- <footer includefile="footer.html">
-  </footer>
+  <footer includefile="footer.html">   
+  </footer>  
   <script src="scripts/include.js"></script>
-  <script src="scripts/currentDate.js"></script>
+  <script  src="scripts/weather.js"></script>
+  
+  <script  src="scripts/greenvillechill.js"></script>
+ 
+  <div id="date-result"></div>
+  <script  src="scripts/currentDate.js"></script>
   
 </body>
  </html>
