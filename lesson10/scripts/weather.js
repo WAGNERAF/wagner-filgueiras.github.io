@@ -25,4 +25,4 @@ townRequest.onload = function () {
     document.getElementById("greenville-rainfall").innerHTML = towns.towns[1].averageRainfall;
 
 
-}
+};
