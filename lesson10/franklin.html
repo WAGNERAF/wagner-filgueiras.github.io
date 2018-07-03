@@ -6,9 +6,6 @@
   <link rel="stylesheet" type="text/css" href="styles/main.css" >
   <link rel="stylesheet" type="text/css" href="styles/medium.css" >
   <link rel="stylesheet" type="text/css" href="styles/large.css" >
-  <script  src="scripts/currentDate.js"></script>
-  <script  src="scripts/windchill.js"></script>
-  <script  src="scripts/weather.js"></script>
      
   <title>Franklin ||Take your Umbrella</title>
 </head>
@@ -33,7 +30,7 @@
     <div class="conditions">   
        Wind Speed: <span id="WindSpeed">4 </span> mph<span id="temp-windDirection"> NW</span>   <br/> 
           
-      Wind Chill: <span id="Windchill1"></span>&deg;F <br/><button type="button" onclick="windchillcalc()" >Calc Wind Chill</button>
+      Wind Chill: <div id="franklin-windchill"></div>&deg;F <br/>
     </div> 
      
     <div> 
@@ -93,10 +90,14 @@
   </div>
   </section>  
 
-  <footer includefile="footer.html">
-  </footer>
+   <footer includefile="footer.html">   
+  </footer>  
   <script src="scripts/include.js"></script>
-  <script src="scripts/currentDate.js"></script>
+  <script  src="scripts/weather.js"></script>
+  <script  src="scripts/franklinchill.js"></script>
+  
+  <div id="date-result"></div>
+  <script  src="scripts/currentDate.js"></script>
 
   </body>
  </html>
