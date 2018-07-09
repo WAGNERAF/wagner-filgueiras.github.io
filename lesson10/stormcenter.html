@@ -10,6 +10,15 @@
  <link rel="stylesheet" type="text/css" href="styles/main.css" >
   <link rel="stylesheet" type="text/css" href="styles/medium.css" >
   <link rel="stylesheet" type="text/css" href="styles/large.css" >
+    <script src="scripts/jquery-2.2.1.min.js"></script>
+  <script>
+  $(function(){
+    $('.dropdownMenu > li').click(function(){
+      $(this).children("ul").slideToggle(200);
+    })
+})   
+  
+  </script>
   
   <script  src="scripts/successform.js"></script>
   
@@ -75,15 +84,7 @@
   
   <div id="date-result"></div>
   <script  src="scripts/currentDate.js"></script>
-  <script src="scripts/jquery-2.2.1.min.js"></script>
-  <script>
-  $(function(){
-    $('.dropdownMenu > li').click(function(){
-      $(this).children("ul").slideToggle(200);
-    })
-})   
-  
-  </script>
+
  
  </body>
  </html>
