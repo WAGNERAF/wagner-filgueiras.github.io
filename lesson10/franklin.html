@@ -103,6 +103,15 @@
   
   <div id="date-result"></div>
   <script  src="scripts/currentDate.js"></script>
+  <script src="scripts/jquery-2.2.1.min.js"></script>
+  <script>
+  $(function(){
+    $('.dropdownMenu > li').click(function(){
+      $(this).children("ul").slideToggle(200);
+    })
+})   
+  
+  </script>
 
   </body>
  </html>
