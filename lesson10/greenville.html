@@ -11,6 +11,15 @@
   <link rel="stylesheet" type="text/css" href="styles/main.css" >
   <link rel="stylesheet" type="text/css" href="styles/medium.css" >
   <link rel="stylesheet" type="text/css" href="styles/large.css" >
+  <script src="scripts/jquery-2.2.1.min.js"></script>
+  <script>
+  $(function(){
+    $('.dropdownMenu > li').click(function(){
+      $(this).children("ul").slideToggle(200);
+    })
+})   
+  
+  </script>
   
      
   <title>Greenville ||Take your Umbrella</title>
@@ -111,15 +120,7 @@ All it takes is a downed tree, a lightning strike or overstressed equipment for 
  
   <div id="date-result"></div>
   <script  src="scripts/currentDate.js"></script>
-  <script src="scripts/jquery-2.2.1.min.js"></script>
-  <script>
-  $(function(){
-    $('.dropdownMenu > li').click(function(){
-      $(this).children("ul").slideToggle(200);
-    })
-})   
   
-  </script>
   
 </body>
  </html>
