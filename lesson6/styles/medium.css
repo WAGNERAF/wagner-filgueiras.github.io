@@ -1,0 +1,234 @@
+@media only screen and (min-width: 481px) {
+
+	
+	.dropdownMenu {
+		display: none;
+	}
+
+@import url('https://fonts.googleapis.com/css?family=Krona+One');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+body {
+  
+   width: auto;
+   margin: 0 auto;
+   
+}
+  .cabecalho {
+    font-family: 'Krona One';
+    padding: 10px;
+    line-height: 1px;
+    
+}
+  nav {
+    background-color: #53b5e5;
+    padding: 1em;
+    margin-top: 50px;
+    align-items: center;
+    text-align: center;
+
+   }
+  nav li{
+    font-family:'Lobster';
+    font-size: 1.6em;
+    list-style-type: none;
+    display: inline-block;
+    padding: .6em .6em;
+    line-height: 2px;
+    position: relative;
+    object-position: center;
+
+   
+    
+    
+
+  }
+  nav a {
+    color: #164a8a;
+    line-height: 2px;
+    text-decoration: none;
+  }
+
+  nav a:hover {
+   
+    color: #ffffff;
+
+}
+  nav ul {
+    margin: 1; 
+    align-items: center;
+  }
+
+  nav a:active {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  .logo {
+    position:absolute;     
+    background-color: white;
+    padding: 5px;
+    width: 15%;
+    height:15%;
+    left: 50%;
+    right: 50%;
+    margin-top: -63px;
+    border-color: white;
+  }  
+  #sec1, #sec2 {
+    background-color: #addcf3;
+  }
+
+  div.block_sections h1 {
+  	text-align: center;
+  }
+  
+  div.block_sections h2 {
+    padding-left: 10px;
+  }
+
+  div.block_sections a { 
+    text-decoration:none;
+    color: #164a8a; 
+  }
+
+  .block_sections {
+    border: 4px solid #addcf3;
+    color: #164a8a;
+  }
+
+  .summary {
+    text-align: center;
+    /*align-content: center;*/
+    align-items: center;
+  
+  }
+  .highform {
+  color: red;
+  font-size: 20px;
+  
+}
+  .lowform {
+  color: blue;
+  font-size: 20px;
+  
+  }
+  .conditions {
+    font-size: 20px;
+    line-height: 2;
+    font-weight: bold;
+  } 
+  .windchill {
+    font-size: 20px;
+    line-height: 2;
+    font-weight: bold;
+
+  } 
+  
+  #forecast td, #forecast th {
+    border: 1px solid #4f6978;
+    padding: 8px;
+    background-color: white;
+}
+
+#forecast tr:nth-child(even){
+  background-color: white;
+}
+
+#forecast th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #53b5e5;
+    color: white;
+}
+#forecast {
+    align-items: center;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    position: relative;
+    
+    margin-left: 15%;
+    }
+  .pspec {
+    color: #164a8a;
+    padding: 10px;
+}
+p {
+    color: #164a8a;
+    padding: 10px;
+}
+
+
+ .articlenews{
+   text-align: center;
+   color:#696969 ;
+   justify-content: center;
+   align-items: center;
+   align-content: center;
+   background-color: #FFFFFF;
+   padding: 10px;
+   
+ }
+   .footerbar {  
+   text-align: center;
+   color:#696969 ;
+   justify-content: center;
+   align-items: center;
+   align-content: center;
+   text-decoration: none;  
+   padding: 10px;
+   align-content: center;
+   align-items: center;
+
+   }
+ img{
+   border-radius: 10px;
+   padding: 10px;
+   max-width: 100%;
+ }
+ .weatherimg {
+  margin-left: auto;
+  margin-right: auto;
+ }
+/* Delete these CSS comments after reading. */
+/* This main css file contains the default rules and is geared toward the small/phone view */
+
+* { box-sizing: border-box;}  /* This wildcard applies to all elements ensuring a box layout model */
+
+header, nav, main, footer { /* the comma between the selectors means apply the following CSS declarations to all of the listed elements */
+  max-width: 100%; /* Declare the maximum width and other main element rules to limit the stretch on larger/wider views */
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 300px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 600px;
+    height: 200px;
+}
+
+div.gallery {
+    padding: 2px;
+    text-align: center;
+}
+
+div.leftcol img {
+    float:left;
+    margin:0 20px 10px 0;
+}
+
+div.rightcol img {
+    float:right;
+    margin:0 20px 10px 0;
+}
+
+}
