@@ -1,4 +1,4 @@
-unction currentDate() {
+function currentDate() {
   var d = new Date();
   var weekday = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
   var n = weekday[d.getDay()];
