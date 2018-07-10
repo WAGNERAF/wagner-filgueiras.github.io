@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Krona+One');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
 @media only screen and (min-width: 481px) {
 
 	
@@ -5,8 +8,7 @@
 		display: none;
 	}
 
-@import url('https://fonts.googleapis.com/css?family=Krona+One');
-@import url('https://fonts.googleapis.com/css?family=Lobster');
+
 
 body {
   
@@ -65,14 +67,14 @@ body {
   }
   .logo {
     position:absolute;     
-    background-color: white;
+    background-color: #ffffff;
     padding: 5px;
     width: 15%;
     height:15%;
     left: 50%;
     right: 50%;
     margin-top: -63px;
-    border-color: white;
+    border-color: #ffffff;
   }  
   #sec1, #sec2 {
     background-color: #addcf3;
@@ -231,4 +233,3 @@ div.rightcol img {
     margin:0 20px 10px 0;
 }
 
-}
