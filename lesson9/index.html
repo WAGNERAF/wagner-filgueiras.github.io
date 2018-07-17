@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Free Weather Page">
+  <meta name="keywords" content="HTML,CSS,JavaScript">
+  <meta name="author" content="Wagner Filgueiras">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" type="text/css" href="styles/normalize.css" >
+  <link rel="stylesheet" type="text/css" href="styles/main.css" >
+  <link rel="stylesheet" type="text/css" href="styles/medium.css" >
+  <link rel="stylesheet" type="text/css" href="styles/large.css" >
+  <script src="scripts/jquery-2.2.1.min.js"></script>
+  <script>
+  $(function(){
+    $('.dropdownMenu > li').click(function(){
+      $(this).children("ul").slideToggle(200);
+    })
+})   
+  
+  </script>
+  
+  
+  
+  
+     
+  <title>Home||Take your Umbrella</title>
+</head>
+<body>
+  
+  <header id="cabecalho">  
+   <a href="index.html"><img src="logo_site.JPG" alt="logo_image" class="logo" ></a>
+
+    <ul class="dropdownMenu">
+    <li>&#9776;
+        <ul class="hamburgerlist">
+       <li><a href="index.html">Home</a></li>
+       <li><a href="franklin.html">Franklin</a></li>
+       <li><a href="greenville.html">Greenville</a></li>
+       <li><a href="springfield.html">Springfield</a></li>
+       <li><a href="stormcenter.html">Storm Center</a></li>
+       <li><a href="gallery.html">Gallery</a></li>
+           </ul>   
+          </li>
+       </ul>
+
+  
+   
+  <nav class="navbar">
+     <ul>
+      <li><a href="index.html">Home</a></li>
+       <li><a href="franklin.html">Franklin</a></li>
+       <li><a href="greenville.html">Greenville</a></li>
+       <li><a href="springfield.html">Springfield</a></li>
+       <li><a href="stormcenter.html">Storm Center</a></li>
+       <li><a href="gallery.html">Gallery</a></li>
+     </ul>
+  </nav>
+    <section id="banner">
+ <img src="https://images.pexels.com/photos/1080722/pexels-photo-1080722.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="farm_image" >
+    </section>
+
+    </header>
+  
+
+   <!--<header includefile="header.html">
+  </header>
+<script src="scripts/include.js"></script>-->
+
+
+    <!--- ******* Franklin City Block Information ******* -->
+   <div class="block_sections">   
+    <div class="leftcol">
+    <a href="franklin.html"><h2> Franklin City - Est.<span id="franklin-founded"></span></h2>
+
+                                     
+    <h3>"<span id="franklin-motto"></span>"</h3>
+    <img src="https://images.pexels.com/photos/5166/city-road-street-italy.jpg?cs=srgb&dl=city-endless-historical-5166.jpg&fm=jpg" alt="franklin_city picture" width="300"></a>
+     
+    <p>Franklin City population is about <span id="franklin-population"></span>.<br/> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+   </div>
+    
+    <div class="summary">
+     
+    <h3>Weather Summary</h3>
+    <div class="highform">
+       High: <span id="franklin-high">81</span>&deg;F
+    </div>   
+    <div class="lowform">   
+       Low: <span id="franklin-low">49</span>&deg;F
+    </div>
+    <div class="conditions">   
+       Wind Speed: <span id="franklin-wind-speed">4 </span> mph<span id="franklin-wind-direction"> NW</span><br/>            
+      
+      Wind Chill: <span id="franklin-windchill"></span>&deg;F <br/>
+
+      Annual Rainfall: <span id="franklin-rainfall"></span> inches per year
+    </div> 
+    </div>  
+    </div> 
+    <br/>
+     
+    <!--- ******* Greenville City Block Information ******* -->
+    <div class="block_sections">
+    <div class="rightcol">
+    <a href="greenville.html"><h2> Greenville City - Est.<span id="greenville-founded"></span></h2>
+    
+    <h3>"<span id="greenville-motto"></span>"</h3>
+    <img src="https://images.pexels.com/photos/5166/city-road-street-italy.jpg?cs=srgb&dl=city-endless-historical-5166.jpg&fm=jpg" alt="greemville_city picture" width="300"></a>
+     
+    <p>Greenville City population is about <span id="greenville-population"></span>.<br/> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+   </div>
+
+    <div class="summary">
+     
+    <h3>Weather Summary</h3>
+    <div class="highform">
+       High: <span id="greenville-high">81</span>&deg;F
+    </div>   
+    <div class="lowform">   
+       Low: <span id="greenville-low">49</span>&deg;F
+    </div>
+    <div class="conditions">   
+       Wind Speed: <span id="greenville-wind-speed">4 </span> mph<span id="greenville-wind-direction"> NW</span><br/>  
+          
+      
+      Wind Chill: <span id="greenville-windchill"></span>&deg;F <br/>
+
+
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; 
+       Annual Rainfall: <span id="greenville-rainfall"></span> inches per year
+    </div>  
+    </div>  
+    </div>  
+    <br/>
+
+    <!--- ******* Springfield City Block Information ******* -->
+    
+   <div class="block_sections">
+   
+    <div class="leftcol">
+    <a href="springfield.html"><h2> Springfield City - Est.<span id="springfield-founded"></span></h2>
+    <h3>"<span id="springfield-motto"></span>"</h3>
+    <img src="https://images.pexels.com/photos/5166/city-road-street-italy.jpg?cs=srgb&dl=city-endless-historical-5166.jpg&fm=jpg" alt="franklin_city picture" width="300"></a>
+    <p>Springfield City population is about <span id="springfield-population"></span>.<br/> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+   </div>
+    
+    <div class="summary">
+     
+    <h3>Weather Summary</h3>
+    <div class="highform">
+       High: <span id="springfield-high">81</span>&deg;F
+    </div>   
+    <div class="lowform">   
+       Low: <span id="springfield-low">49</span>&deg;F
+    </div>
+    <div class="conditions">   
+       Wind Speed: <span id="springfield-wind-speed">4 </span> mph<span id="springfield-wind-direction"> NW</span><br/>  
+          
+      
+      Wind Chill: <span id="springfield-windchill"></span>&deg;F <br/>
+      
+      Annual Rainfall: <span id="springfield-rainfall"></span> inches per year
+    </div>  
+    </div>  
+    </div>  
+    <br/>
+  
+  <footer includefile="footer.html">   
+  </footer>  
+  <script src="scripts/include.js"></script>
+  
+  <script  src="scripts/weather.js"></script>
+  <script  src="scripts/franklinchill.js"></script>
+  <script  src="scripts/greenvillechill.js"></script>
+  <script  src="scripts/springfieldchill.js"></script>
+  <span id="date-result"></span>
+  <script  src="scripts/currentDate.js"></script>
+  
+
+
+ 
+ </body>
+ </html>
+

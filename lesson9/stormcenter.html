@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Free Weather Page">
+  <meta name="keywords" content="HTML,CSS,JavaScript">
+  <meta name="author" content="Wagner Filgueiras">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+ <link rel="stylesheet" type="text/css" href="styles/main.css" >
+  <link rel="stylesheet" type="text/css" href="styles/medium.css" >
+  <link rel="stylesheet" type="text/css" href="styles/large.css" >
+    <script src="scripts/jquery-2.2.1.min.js"></script>
+      <script>
+        function formOk() {
+        alert("Successfully Submited\nThank you!");
+        }
+      </script>
+      
+  <script>
+  $(function(){
+    $('.dropdownMenu > li').click(function(){
+      $(this).children("ul").slideToggle(200);
+    })
+})   
+  
+  </script>
+ 
+  <title>Stormcenter ||Take your Umbrella</title>
+</head>
+
+<body>
+
+  
+  <header id="cabecalho">  
+   <a href="index.html"><img src="logo_site.JPG" alt="logo_image" class="logo" ></a>
+
+    <ul class="dropdownMenu">
+    <li>&#9776;
+        <ul class="hamburgerlist">
+       <li><a href="index.html">Home</a></li>
+       <li><a href="franklin.html">Franklin</a></li>
+       <li><a href="greenville.html">Greenville</a></li>
+       <li><a href="springfield.html">Springfield</a></li>
+       <li><a href="stormcenter.html">Storm Center</a></li>
+       <li><a href="gallery.html">Gallery</a></li>
+           </ul>   
+          </li>
+       </ul>
+
+  
+   
+  <nav class="navbar">
+     <ul>
+      <li><a href="index.html">Home</a></li>
+       <li><a href="franklin.html">Franklin</a></li>
+       <li><a href="greenville.html">Greenville</a></li>
+       <li><a href="springfield.html">Springfield</a></li>
+       <li><a href="stormcenter.html">Storm Center</a></li>
+       <li><a href="gallery.html">Gallery</a></li>
+     </ul>
+  </nav>
+    <section id="banner">
+ <img src="https://images.pexels.com/photos/1080722/pexels-photo-1080722.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="farm_image" >
+    </section>
+
+    </header>       
+ 
+     
+      <section id="sec1" class="pspec"> 
+    <div class="leftcol">  
+   <h3 class="negrito">Hello! </h3> 
+  <p class="negrito">Here is a space to share your report about any storm or dangerous situation in our region. Helping others and if necessary receiving help!<br/>
+   </p>
+   
+  <p class="negrito">  Share With Us! <br/><br/>
+  Name: <input type="text" name="name" size="30" required="required" pattern="" title="Número de segurança social"><br/><br/>
+  Email: <input type="email" name="email" size="30" placeholder="youremail@email.com"><br/><br/>
+  Phone: <input type="tel" name="phone" size="11" placeholder="xxx-xxx-xxx"><br/><br/>
+    Storm Date: <input type="date" name="date" size="8"><br/><br/>
+     
+    Storm Type: <select name="stormtype">    
+  <option value="default">Select Type</option>
+  <option value="Flash Flood">Flash Flood</option>
+  <option value="Hail">Hail</option>
+  <option value="Hurricane">Hurricane</option>
+  <option value="Thunderstorm">Thunderstorm</option> 
+  <option value="Tornado">Tornado</option> 
+</select> 
+
+<br/><br/>
+    
+     Storm Severity: <input type="range" min="0" max="10"><br/><br/>
+    User in danger Level?<br/><input type="radio" name="yes" value="yes" checked>Yes<br>
+<input type="radio" name="yes" value="yes" checked>No<br>
+    <input type="radio" name="yes" value="yes" checked>Maybe<br>
+    <br/>
+    Storm Region: <select name="region">
+  <option value="default">Select Region</option>
+  <option value="Franklin">Franklin</option>
+  <option value="Greenville">Greenville</option>
+  <option value="Springfield">Springfield</option>    
+</select>
+   <br/><br/>
+
+  Comments: <textarea name="comentários" rows="10" cols="40" maxlength="500">Share Your Experience Here</textarea> <br/>
+  <br/>
+    
+    <button onclick="formOk()">Submit</button>
+  </div>
+  <div>
+  <img  class="storm_img" src="https://images.pexels.com/photos/1123445/pexels-photo-1123445.jpeg?cs=srgb&dl=calm-clouds-dawn-1123445.jpg&fm=jpg" alt="experience_share_img" width="500" />
+  </div>
+</section> <br/>
+   
+ <footer includefile="footer.html">   
+  </footer>  
+  <script src="scripts/include.js"></script>  
+  <div id="date-result"></div>
+  <script  src="scripts/currentDate.js"></script>
+   
+ </body>
+ </html>
+
