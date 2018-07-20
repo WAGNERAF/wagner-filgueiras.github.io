@@ -1,0 +1,52 @@
+{
+  "services" : [
+  {
+    "name": "Bicycle Rental",
+    "price": 5,
+    "timeEstimated": "Free",
+    "Details": "Rent a new and revised bike to use freely during the
+contracted time. No distance limit for use.",
+    
+  },
+  {
+    "name": "Tire Repair",
+    "motto": "Tire tire patches the hole and sews the tire",
+    "price": 10,
+    "timeEstimated": 1,
+    "Details": "Analysis and repair of various types of tire bore",
+    
+  },
+
+ {
+    "name": "Handlebar installation",    
+    "price": 13,
+    "timeEstimated": 1,
+    "Details": "Installation of a good and safety handlebar",
+    
+  },
+
+  {
+    "name": "Wheel Routing",    
+    "price": 12,
+    "timeEstimated": 2,
+    "Details": "Complete mounting of wheels guaranteeing their safety.",
+    
+  },
+
+  {
+    "name": "Cleaning",    
+    "price": 20,
+    "timeEstimated": 1.5,
+    "Details": "Deep cleaning of your bike, cherishing the details and more complex parts.",
+    
+  },
+
+  {
+    "name": "Suspension",    
+    "price": 50,
+    "timeEstimated": 3,
+    "Details": "Suspension repair and lubrication, with complete integrity and safety check up.",
+    
+  },
+ ]
+}
