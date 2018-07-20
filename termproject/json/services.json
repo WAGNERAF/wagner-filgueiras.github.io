@@ -4,16 +4,14 @@
     "name": "Bicycle Rental",
     "price": 5,
     "timeEstimated": "Free",
-    "Details": "Rent a new and revised bike to use freely during the
-contracted time. No distance limit for use.",
+    "details": "Rent a new and revised bike to use freely during the contracted time. No distance limit for use.",
     
   },
   {
     "name": "Tire Repair",
-    "motto": "Tire tire patches the hole and sews the tire",
     "price": 10,
     "timeEstimated": 1,
-    "Details": "Analysis and repair of various types of tire bore",
+    "details": "Analysis and repair of various types of tire bore",
     
   },
 
@@ -21,7 +19,7 @@ contracted time. No distance limit for use.",
     "name": "Handlebar installation",    
     "price": 13,
     "timeEstimated": 1,
-    "Details": "Installation of a good and safety handlebar",
+    "details": "Installation of a good and safety handlebar",
     
   },
 
@@ -29,7 +27,7 @@ contracted time. No distance limit for use.",
     "name": "Wheel Routing",    
     "price": 12,
     "timeEstimated": 2,
-    "Details": "Complete mounting of wheels guaranteeing their safety.",
+    "details": "Complete mounting of wheels guaranteeing their safety.",
     
   },
 
@@ -37,7 +35,7 @@ contracted time. No distance limit for use.",
     "name": "Cleaning",    
     "price": 20,
     "timeEstimated": 1.5,
-    "Details": "Deep cleaning of your bike, cherishing the details and more complex parts.",
+    "details": "Deep cleaning of your bike, cherishing the details and more complex parts.",
     
   },
 
@@ -45,7 +43,7 @@ contracted time. No distance limit for use.",
     "name": "Suspension",    
     "price": 50,
     "timeEstimated": 3,
-    "Details": "Suspension repair and lubrication, with complete integrity and safety check up.",
+    "details": "Suspension repair and lubrication, with complete integrity and safety check up.",
     
   },
  ]
