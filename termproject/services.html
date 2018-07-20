@@ -1,0 +1,100 @@
+<!DOCTYPE>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Free Weather Page">
+  <meta name="keywords" content="HTML,CSS,JavaScript">
+  <meta name="author" content="Wagner Filgueiras">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!--<link rel="stylesheet" type="text/css" href="styles/normalize.css" >
+  <link rel="stylesheet" type="text/css" href="styles/main.css" >
+  <link rel="stylesheet" type="text/css" href="styles/medium.css" >-->  
+  <link rel="stylesheet" type="text/css" href="styles/large.css" >
+  <script src="scripts/jquery-2.2.1.min.js"></script>
+  
+
+	<title>Home | Blue Bike</title>
+</head>
+	
+<body>
+	<header id="cabecalho">  
+   <a href="index.html"><img src="images/blue bike logo.JPG" alt="logo_image" class="logo" ></a>
+
+<!-- Navbar below is for the hamburger menu -->
+    <ul class="dropdownMenu">
+    <li>&#9776;
+        <ul class="hamburgerlist">
+       <li><a href="index.html">Home</a></li>
+       <li><a href="adventures.html">Adventures</a></li>
+       <li><a href="events.html">Events</a></li>
+       <li><a href="services.html">Services</a></li>
+       <li><a href="contact.html">Contact</a></li>
+        </ul>   
+          </li>
+
+          <a class="shopbutton" href="bikeShop.html">Bike Shop</a>	 
+       </ul> 
+
+  <!-- Navbar below will appear for medium and large views -->			 
+  <nav class="navbar">
+     <ul>
+       <li><a href="index.html">Home</a></li> 
+       <li><a href="adventures.html">Adventures</a></li> 
+       <li><a href="events.html">Events</a></li>
+       <li><a href="services.html">Services</a></li>
+       <li><a href="contact.html">Contact</a></li>
+        </ul>   
+          </li>
+       </ul>  
+       	<br/>
+  		<a class="shopbutton" href="bikeShop.html">Bike Shop</a>	
+  </nav>
+</header>
+
+<h2>Offered Services</h2>
+
+<table>
+  <tr>
+    <th>Service</th>
+    <th>Description</th>
+    <th>Estimated Time</th>
+    <th>Values</th>
+  </tr>
+  <tr>
+    <td><span id="first_service"></span></td>
+    <td><span id="first_detail"></span></td>
+    <td><span id="first_time"></span> Hours</td>
+    <td>$ <span id="first_price"> / hour</span></td>
+  </tr>
+  <tr>
+    <td>Centro comercial Moctezuma</td>
+    <td>Francisco Chang</td>
+    <td>Mexico</td>
+  </tr>
+  <tr>
+    <td>Ernst Handel</td>
+    <td>Roland Mendel</td>
+    <td>Austria</td>
+  </tr>
+  <tr>
+    <td>Island Trading</td>
+    <td>Helen Bennett</td>
+    <td>UK</td>
+  </tr>
+  <tr>
+    <td>Laughing Bacchus Winecellars</td>
+    <td>Yoshi Tannamuri</td>
+    <td>Canada</td>
+  </tr>
+  <tr>
+    <td>Magazzini Alimentari Riuniti</td>
+    <td>Giovanni Rovelli</td>
+    <td>Italy</td>
+  </tr>
+</table>
+
+<script  src="scripts/servicesRequest.js"></script>
+
+</body>
+</html>
