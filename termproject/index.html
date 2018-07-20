@@ -1,0 +1,137 @@
+<!DOCTYPE>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Free Weather Page">
+  <meta name="keywords" content="HTML,CSS,JavaScript">
+  <meta name="author" content="Wagner Filgueiras">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" type="text/css" href="styles/normalize.css" >
+  <link rel="stylesheet" type="text/css" href="styles/main.css" >
+  <link rel="stylesheet" type="text/css" href="styles/medium.css" >
+  <link rel="stylesheet" type="text/css" href="styles/large.css" >
+  <script src="scripts/jquery-2.2.1.min.js"></script>
+  <script>
+  $(function(){
+    $('.dropdownMenu > li').click(function(){
+      $(this).children("ul").slideToggle(200);
+    })
+})   
+  
+  </script>
+
+	<title>Home | Blue Bike</title>
+</head>
+	
+<body>
+	<header id="cabecalho">  
+   <a href="index.html"><img src="images/blue bike logo.JPG" alt="logo_image" class="logo" ></a>
+
+<!-- Navbar below is for the hamburger menu -->
+    <ul class="dropdownMenu">
+    <li>&#9776;
+        <ul class="hamburgerlist">
+       <li><a href="index.html">Home</a></li>
+       <li><a href="adventures.html">Adventures</a></li>
+       <li><a href="events.html">Events</a></li>
+       <li><a href="services.html">Services</a></li>
+       <li><a href="contact.html">Contact</a></li>
+        </ul>   
+          </li>
+
+          <a class="shopbutton" href="bikeShop.html">Bike Shop</a>	 
+       </ul> 
+
+  <!-- Navbar below will appear for medium and large views -->			 
+  <nav class="navbar">
+     <ul>
+       <li><a href="index.html">Home</a></li> 
+       <li><a href="adventures.html">Adventures</a></li> 
+       <li><a href="events.html">Events</a></li>
+       <li><a href="services.html">Services</a></li>
+       <li><a href="contact.html">Contact</a></li>
+        </ul>   
+          </li>
+       </ul>  
+       	<br/>
+  		<a class="shopbutton" href="bikeShop.html">Bike Shop</a>	
+  </nav>
+</header>
+
+  <!-- Here starts the Articles Section -->
+ 	 
+    <section class="article">
+    	<div class="article">
+    		<h2>We are bike lovers!</h2>
+        <img id="home_bike_article_img" src="https://images.pexels.com/photos/1149601/pexels-photo-1149601.jpeg?cs=srgb&dl=bicycle-bike-blue-1149601.jpg&fm=jpg" alt="bike_image"> </br>
+        <div class="text_article">
+    		<p class="sec1"><b>Albert Einstein once said he thought up the theory of relativity while riding a bicycle</b><br/><br/></p>
+    		<p>Blue Bike is a page made especially for those who truly love bikes!
+We may not know everything, but one thing we know for sure:<br/> 
+<i><center>"If you have seen a few or decades of springs, it's always time to develop a passion for cycling"</i></center><br/>
+
+Here you will find everything you need to start or move forward with your passion for explore the streets and roads of our beautiful country.<br/><br/></p>
+
+
+<p class="sec1">Incidentally, we have a special session with many <b><a href="adventures.html"> adventures </a></b> that you can participate with us!<br/><br/>
+
+If your bike is in need of some repairs, don't worry, in our <b><a href="services.html"> Services </a></b> session you will find new parts and acessories to make your bike ready to go!<br/><br/>
+
+Now for those who think about starting a hobby or even a complete sport, click here on <b><a href="bikeShop.html"> Bike  Shop</a></b> and check out the promotions we have for you!<br/>
+
+<b><i>Slowly or rushing to get there first, riding a bicycle is the best choice you will make today!</i></b></p>
+
+</div>
+    		   		
+    	</div>    
+
+      
+      <div class="right_sidebar">
+      <h2>Events</h2>
+
+      <h3>Idaho Run</h3>
+      <img src="https://images.pexels.com/photos/1174103/pexels-photo-1174103.jpeg?cs=srgb&dl=action-active-activity-1174103.jpg&fm=jpg">
+      <p class="event_date">July 10, 2018</p>
+      <p>Albert Einstein once said he thought up the theory of relativity while riding a bicycle
+        Welcome to the page made especially for those who truly love bikes!</p>
+
+      <h3>Salt Lake Bike Lover's</h3>  
+      <img src="https://images.pexels.com/photos/161172/cycling-bike-trail-sport-161172.jpeg?cs=srgb&dl=adventure-bicycle-bike-161172.jpg&fm=jpg">
+      <p class="event_date">July 10, 2018</p>
+      <p>Albert Einstein once said he thought up the theory of relativity while riding a bicycle
+        Welcome to the page made especially for those who truly love bikes!</p>
+        
+
+      </div>
+      </section>
+
+      <section class="service_links">
+      <div class="left_link"><a href="services.html">
+      <h3>Let's tunning your Bike!</h3>
+      <img  class="links_img" src="https://images.pexels.com/photos/162553/keys-workshop-mechanic-tools-162553.jpeg?cs=srgb&dl=garage-hanging-mechanic-162553.jpg&fm=jpg">
+      <p> Albert Einstein once said he thought up the theory of relativity while riding a bicycle
+        Welcome to the page made especially for those who truly love bikes!
+We may not know everything, butcycling.        
+      </p>
+      </a>
+      </div>
+
+      <div class="right_link"><a href="adventures.html">
+      <h3>Your Next Adventure!</h3>
+      <img class="links_img" src="https://images.pexels.com/photos/417059/pexels-photo-417059.jpeg?cs=srgb&dl=adventure-asia-backlit-417059.jpg&fm=jpg">
+      <p>Albert Einstein once said he thought up the theory of relativity while riding a bicycle
+        Welcome to the page made especially for those who truly love bikes!
+We may not know everything
+      </p>
+      </div>
+
+      
+      </section>
+
+      
+  </body>
+  
+<footer class="footerbar"> Produced by Wagner Filgueiras | CIT 230:05 | July 2018 | All Rights Reserved </footer>
+
+</html>
