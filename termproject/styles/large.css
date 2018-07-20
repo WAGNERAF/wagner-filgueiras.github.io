@@ -1,0 +1,280 @@
+@media only screen and (min-width: 300px) {
+
+	
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+	.dropdownMenu {
+		display: none;
+	}
+
+  .logo {
+    position:relative;
+    float: center; 
+    margin-top: 10px;    
+    width: 180px;
+    height:180px;
+    left: 40%;
+    border-color: black;
+  }  
+ 
+body {
+  
+   width: 1200px;
+   margin: 0 auto;
+   
+}
+
+ nav {
+    background-color: #2a3648;
+    padding: 1em;
+    margin-top: 10px;
+    align-items: center;
+    text-align: center;
+    height: 80px;
+
+   }
+  nav li{
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 1.6em;
+    list-style-type: none;
+    display: inline-block;
+    padding: .8em 1em;
+    line-height: 2px;
+    position: relative;
+    object-position: center;     
+
+  }
+  nav a {
+    color: #ffffff;
+    line-height: 2px;
+    text-decoration: none;
+  }
+
+  nav a:hover {
+   
+    color: #85b7df;
+
+}
+  nav ul {
+    margin: 1; 
+    align-items: center;
+  }
+
+  nav a:active {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  .shopbutton {
+  font-family: 'Arial';
+  font-weight: bold;
+  font-size: 14px;
+  color: #2a3648;
+  padding: 10px 20px;
+
+  background: #acd8e8;  
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  border: 3px solid #ffffff;
+  -moz-box-shadow:
+    0px 1px 3px rgba(8,92,125,0.5),
+    inset 0px 0px 3px rgba(8,92,125,1);
+  -webkit-box-shadow:
+    0px 1px 3px rgba(8,92,125,0.5),
+    inset 0px 0px 3px rgba(8,92,125,1);
+  box-shadow:
+    0px 1px 3px rgba(8,92,125,0.5),
+    inset 0px 0px 3px rgba(8,92,125,1);
+  text-shadow:
+    1px -1px 0px rgba(255,252,255,0.1),
+    0px 1px 0px rgba(255,255,255,1);
+}
+  div.article {
+    float: left;
+    width: 900px;
+    height: 800px;    
+    font-family: 'calibri';
+    text-align: center;
+
+  }
+  div.article p {
+    text-align: left;
+  }
+  div.article p.sec1 {
+    text-align: center;
+  }
+  div.article p.sec1 a {
+    text-decoration: none;
+    color: #4f6978;
+  }
+  div.text_article {
+    padding: 10px;
+    border: 1px groove #4f6978;
+  }
+
+
+  div.right_sidebar {    
+    float: right;
+    width: 250px;
+    height: 700px;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    background-color: #141a23;
+    margin-top: 20px;
+    font-family: 'calibri';
+  }
+  div.right_sidebar h2 {
+    text-align: center;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+  }
+  div.right_sidebar h3 { 
+    color: #acd8e8;
+    text-decoration: underline;
+    text-align: center;
+  }
+  div.right_sidebar p { 
+    color: #ffffff;
+  }
+  .event_date { 
+    font-weight: bold;
+  }
+
+  .service_links {
+    padding: 30px;
+    font-family: 'calibri';
+    width: 800px;
+    text-align: center;
+        
+  }
+  .service_links a {
+    text-decoration: none;
+  }
+  div.left_link {
+    width: 310px;
+    height: 400px;
+    background-color: #85b7df;
+    border: 5px solid #acd8e8;
+    float: left;
+
+
+  }
+
+  div.right_link {
+    width: 310px;
+    height: 400px;
+    background-color: #85b7df;
+    border: 5px solid #acd8e8;
+    float: right;
+
+    
+  }
+  .service_links p { 
+    color: #2a3648;
+    padding: 5px;
+  }
+
+  .service_links h3 { 
+    color: #2a3648;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+    padding: 2px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+  }
+
+
+  footer {
+    margin-top: auto;
+}
+
+   .footerbar { 
+
+   text-align: center;
+   color: #ffffff;
+   justify-content: center;
+   align-items: center;
+   align-content: center;
+   text-decoration: none;  
+   padding: 10px;
+   align-content: center;
+   align-items: center;
+   margin-top: 30px;
+   background-color: #2a3648;
+
+   }
+ 
+
+
+
+
+
+header, nav, main, footer { /* the comma between the selectors means apply the following CSS declarations to all of the listed elements */
+  max-width: 100%; /* Declare the maximum width and other main element rules to limit the stretch on larger/wider views */
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 300px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 600px;
+    height: 200px;
+}
+
+div.gallery {
+    padding: 2px;
+    text-align: center;
+}
+
+div.leftcol img {
+    float:left;
+    margin:0 20px 10px 0;
+}
+
+div.rightcol img {
+    float:right;
+    margin:0 20px 10px 0;
+}
+
+/*Images Fomartation */
+
+ #home_bike_article_img {
+   border-radius: 20px;
+   padding: 10px;
+   width: 500px;
+   height: 300px;
+  }
+
+  .links_img {
+    border-radius: 0px;
+    width: 300px; 
+    height: 200px;
+  }
+
+  .right_sidebar img {
+    border-radius: 10px;
+    width: 150px;
+    height: 100px;
+    padding: 5px;
+
+  }
+
