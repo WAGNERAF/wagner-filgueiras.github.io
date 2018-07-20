@@ -1,51 +1,50 @@
 {
-  "services" : [
-  {
-    "name": "Bicycle Rental",
-    "price": 5,
-    "timeEstimated": "Free",
-    "details": "Rent a new and revised bike to use freely during the
-contracted time. No distance limit for use.",
-    
-  },
-  {
-    "name": "Tire Repair",
-    "price": 10,
-    "timeEstimated": 1,
-    "details": "Analysis and repair of various types of tire bore",
-    
-  },
+	"services": [{
+			"name": "Bicycle Rental",
+			"price": 5,
+			"timeEstimated": 0,
+			"details": "Rent a new and revised bike to use freely!"
 
- {
-    "name": "Handlebar installation",    
-    "price": 13,
-    "timeEstimated": 1,
-    "details": "Installation of a good and safety handlebar",
-    
-  },
 
-  {
-    "name": "Wheel Routing",    
-    "price": 12,
-    "timeEstimated": 2,
-    "details": "Complete mounting of wheels guaranteeing their safety.",
-    
-  },
+		},
+		{
+			"name": "Tire Repair",
+			"price": 10,
+			"timeEstimated": 1,
+			"details": "Analysis and repair of various types of tire bore"
 
-  {
-    "name": "Cleaning",    
-    "price": 20,
-    "timeEstimated": 1.5,
-    "details": "Deep cleaning of your bike, cherishing the details and more complex parts.",
-    
-  },
+		},
 
-  {
-    "name": "Suspension",    
-    "price": 50,
-    "timeEstimated": 3,
-    "details": "Suspension repair and lubrication, with complete integrity and safety check up.",
-    
-  }
- ]
+		{
+			"name": "Handlebar installation",
+			"price": 13,
+			"timeEstimated": 1,
+			"details": "Installation of a good and safety handlebar"
+
+		},
+
+		{
+			"name": "Wheel Routing",
+			"price": 12,
+			"timeEstimated": 2,
+			"details": "Complete mounting of wheels guaranteeing their safety."
+
+		},
+
+		{
+			"name": "Cleaning",
+			"price": 20,
+			"timeEstimated": 1.5,
+			"details": "Deep cleaning of your bike, cherishing the details and more complex parts."
+
+		},
+
+		{
+			"name": "Suspension",
+			"price": 50,
+			"timeEstimated": 3,
+			"details": "Suspension repair and lubrication, with complete integrity and safety check up."
+
+		}
+	]
 }
