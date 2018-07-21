@@ -2,7 +2,7 @@
 	"services": [{
 			"name": "Bicycle Rental",
 			"price": 5,
-			"timeEstimated": 0,
+			"timeEstimated": "Free",
 			"details": "Rent a new and revised bike to use freely!"
 
 
