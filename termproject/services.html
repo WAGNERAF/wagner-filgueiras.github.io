@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Free Weather Page">
+  <meta name="keywords" content="HTML,CSS,JavaScript">
+  <meta name="author" content="Wagner Filgueiras">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!--<link rel="stylesheet" type="text/css" href="styles/normalize.css" >
+  <link rel="stylesheet" type="text/css" href="styles/main.css" >
+  <link rel="stylesheet" type="text/css" href="styles/medium.css" >-->  
+  <link rel="stylesheet" type="text/css" href="styles/large.css" >
+  <script src="scripts/jquery-2.2.1.min.js"></script>
+  
+
+  <title>Services | Blue Bike</title>
+</head>
+  
+<body>
+  <header id="cabecalho">  
+   <a href="index.html"><img src="images/blue_bike_logo.jpg" alt="logo_image" class="logo" ></a>
+
+<!-- Navbar below is for the hamburger menu -->
+    <ul class="dropdownMenu">
+    <li>&#9776;
+        <ul class="hamburgerlist">
+       <li><a href="index.html">Home</a></li>
+       <li><a href="adventures.html">Adventures</a></li>
+       <li><a href="events.html">Events</a></li>
+       <li><a href="services.html">Services</a></li>
+       <li><a href="contact.html">Contact</a></li>
+        </ul>   
+          </li>
+
+          <a class="shopbutton" href="bikeShop.html">Bike Shop</a>   
+       </ul> 
+
+  <!-- Navbar below will appear for medium and large views -->       
+  <nav class="navbar">
+     <ul>
+       <li><a href="index.html">Home</a></li> 
+       <li><a href="adventures.html">Adventures</a></li> 
+       <li><a href="events.html">Events</a></li>
+       <li><a href="services.html">Services</a></li>
+       <li><a href="contact.html">Contact</a></li>
+        </ul>   
+            
+        
+      <a class="shopbutton" href="bikeShop.html">Bike Shop</a>  
+  </nav>
+</header>
+
+<h2>Offered Services</h2>
+
+<table>
+  <tr>
+    <th>Service</th>
+    <th>Description</th>
+    <th>Estimated Time</th>
+    <th>Values</th>
+  </tr>
+  <tr>
+    <td><span id="first_service"></span></td>
+    <td><span id="first_detail"></span></td>
+    <td><span id="first_time"></span></td>
+    <td>$ <span id="first_price"></span> / Hour</td>
+  </tr>
+  <tr>
+    <td><span id="second_service"></span></td>
+    <td><span id="second_detail"></span></td>
+    <td><span id="second_time"></span> Hour</td>
+    <td>$ <span id="second_price"></span></td>
+  </tr>
+  <tr>
+    <td><span id="third_service"></span></td>
+    <td><span id="third_detail"></span></td>
+    <td><span id="third_time"></span> Hour</td>
+    <td>$ <span id="third_price"></span></td>
+  </tr>
+  <tr>
+    <td><span id="fourth_service"></span></td>
+    <td><span id="fourth_detail"></span></td>
+    <td><span id="fourth_time"></span> Hours</td>
+    <td>$ <span id="fourth_price"></span></td>
+  </tr>
+  <tr>
+    <td><span id="fifth_service"></span></td>
+    <td><span id="fifth_detail"></span></td>
+    <td><span id="fifth_time"></span> Hours</td>
+    <td>$ <span id="fifth_price"></span></td>
+  </tr>
+  <tr>
+    <td><span id="sixth_service"></span></td>
+    <td><span id="sixth_detail"></span></td>
+    <td><span id="sixth_time"></span> Hours</td>
+    <td>$ <span id="sixth_price"></span></td>
+  </tr>
+</table>
+
+<script  src="scripts/servicesRequest.js"></script>
+
+<footer class="footerbar"> 137 E. Main ST Bozeman, MT 59715<br/>
+Produced by Wagner Filgueiras | CIT 230:05 | July 2018 | <a href="credits.html">Source Page</a> | <a href="credits.html">About this page Video</a></footer>
+
+</body>
+<script src="scripts/active.js"></script>
+
+
+
+</html>
