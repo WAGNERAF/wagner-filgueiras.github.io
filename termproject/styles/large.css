@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 
-@media only screen and (min-width: 64em) {
+@media only screen and (min-width: 920px) {
 
 header, nav, main, footer { 
   max-width: 100%; 
