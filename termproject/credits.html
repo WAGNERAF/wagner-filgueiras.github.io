@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Free Weather Page">
+  <meta name="keywords" content="HTML,CSS,JavaScript">
+  <meta name="author" content="Wagner Filgueiras">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" type="text/css" href="styles/normalize.css" >
+  <link rel="stylesheet" type="text/css" href="styles/small.css" >
+  <link rel="stylesheet" type="text/css" href="styles/medium.css" >
+  <link rel="stylesheet" type="text/css" href="styles/large.css" >
+  <script src="scripts/jquery-2.2.1.min.js"></script>
+  <script>
+  $(function(){
+    $('.dropdownMenu > li').click(function(){
+      $(this).children("ul").slideToggle(200);
+    })
+})   
+  
+  </script>
+  
+
+  <title>Sources | Mountain Spoke</title>
+</head>
+  
+<body>
+ <header id="cabecalho">  
+   <a href="index.html"><img src="blue_bike_logo.jpg" alt="logo_image" class="logo" ></a>
+
+<!-- Navbar below is for the hamburger menu -->
+
+
+<ul class="dropdownMenu">
+    <li>&#9776;
+        <ul class="hamburgerlist">
+        
+       <li><a href="index.html">Home</a></li>
+       <li><a href="adventures.html">Adventures</a></li>
+       <li><a href="events.html">Events</a></li>
+       <li><a href="services.html">Services</a></li>
+       <li><a href="contact.html">Contact</a></li>
+       <li><a class="shopbutton" href="bikeShop.html">Bike Shop</a></li>
+        </ul>   
+          </li>             
+       </ul> 
+       
+     </div>
+
+
+  <!-- Navbar below will appear for medium and large views -->       
+  <nav class="navbar">
+     <ul>
+       <li><a href="index.html">Home</a></li> 
+       <li><a href="adventures.html">Adventures</a></li> 
+       <li><a href="events.html">Events</a></li>
+       <li><a href="services.html">Services</a></li>
+       <li><a href="contact.html">Contact</a></li>
+       <li><a class="shopbutton" href="bikeShop.html">Bike Shop</a></li>
+        </ul>   
+           
+        
+    
+  </nav>
+</header>
+
+
+<img class="article_img" src="https://images.pexels.com/photos/192273/pexels-photo-192273.jpeg?cs=srgb&dl=adult-blur-business-192273.jpg&fm=jpg" alt="pexelsimg">
+<p>The images used in this fictious web site are from PEXELS web site : <a href="http://www.pexels.com">www.pexels.com</a></p>
+
+
+<p>The LOGO used in this fictious web site are built based in a image from FREEPIK web site : <a href="http://www.freepik.com">www.pexels.com</a></p>
+
+
+
+
+
+<footer>
+      <div class="footerbar"> 137 E. Main ST Bozeman, MT 59715<br/>
+Produced by Wagner Filgueiras | CIT 230:05 | July 2018 | <a href="credits.html">Source Page</a> | <a href="credits.html">About this page Video</a>
+      </div>
+      </footer>
+
+      </body>
+
+      </html>

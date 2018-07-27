@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Free Weather Page">
+  <meta name="keywords" content="HTML,CSS,JavaScript">
+  <meta name="author" content="Wagner Filgueiras">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" type="text/css" href="styles/normalize.css" >
+  <link rel="stylesheet" type="text/css" href="styles/small.css" >
+  <link rel="stylesheet" type="text/css" href="styles/medium.css" >
+  <link rel="stylesheet" type="text/css" href="styles/large.css" >
+  <script src="scripts/jquery-2.2.1.min.js"></script>
+  <script>
+  $(function(){
+    $('.dropdownMenu > li').click(function(){
+      $(this).children("ul").slideToggle(200);
+    })
+})   
+  
+  </script>
+  
+
+  <title>Bike Shop | Blue Bike</title>
+</head>
+  
+<body>
+ <header id="cabecalho">  
+   <a href="index.html"><img src="blue_bike_logo.jpg" alt="logo_image" class="logo" ></a>
+
+<!-- Navbar below is for the hamburger menu -->
+
+
+<ul class="dropdownMenu">
+    <li>&#9776;
+        <ul class="hamburgerlist">
+        
+       <li><a href="index.html">Home</a></li>
+       <li><a href="adventures.html">Adventures</a></li>
+       <li><a href="events.html">Events</a></li>
+       <li><a href="services.html">Services</a></li>
+       <li><a href="contact.html">Contact</a></li>
+       <li><a class="shopbutton" href="bikeShop.html">Bike Shop</a></li>
+        </ul>   
+          </li>             
+       </ul> 
+       
+     </div>
+
+
+  <!-- Navbar below will appear for medium and large views -->       
+  <nav class="navbar">
+     <ul>
+       <li><a href="index.html">Home</a></li> 
+       <li><a href="adventures.html">Adventures</a></li> 
+       <li><a href="events.html">Events</a></li>
+       <li><a href="services.html">Services</a></li>
+       <li><a href="contact.html">Contact</a></li>
+       <li><a class="shopbutton" href="bikeShop.html">Bike Shop</a></li>
+        </ul>   
+           
+        
+    
+  </nav>
+</header>
+<br/>
+<img class="banner" src="https://images.pexels.com/photos/974091/pexels-photo-974091.jpeg?cs=srgb&dl=blue-sky-clouds-desktop-wallpaper-974091.jpg&fm=jpg" alt="banner_bike"><br/>
+
+<div class="bikeshop">
+  <div id="bike1" class="gallery">
+  <img src="https://images.pexels.com/photos/100582/pexels-photo-100582.jpeg?cs=srgb&dl=bicycle-bike-daylight-100582.jpg&fm=jpg" alt="Bike1">
+  
+  <div class="desc">
+    <h4>Kent KZ2600 - <span class="price">Only $189</span></h4>
+    <table>
+      <tr>
+        <th><span class="negrito">Specifications:  </span></th>
+      </tr>
+      <tr>
+        <td class="negrito">Shifting:</td>
+        <td>Shimano 21 Speed Shifters</td>
+      </tr>
+      <tr>
+        <td class="negrito">Handlebars:</td>
+        <td>Alloy Riser City Bars 620mm, 60mm Rise, 15° Sweep, 25.4 Center</td>
+      </tr>
+      <tr>
+        <td class="negrito">Derailleur:</td>
+        <td>Rear Tourney</td>
+      </tr>
+      <tr>
+        <td class="negrito">Available Colors:</td>
+        <td>Black, Red, Blue</td>
+      </tr>
+    </table> 
+    <button onclick="formOk()" class="submitbutton">Buy Now</button>
+
+   </div>
+</div>
+
+<div id="bike2" class="gallery">
+  <img src="https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?cs=srgb&dl=activity-bicycle-bike-276517.jpg&fm=jpg" alt="Bike2">
+ <div class="desc">
+    <h4>Beaumont Bike - <span class="price">Only $219</span></h4>
+    <table>
+      <tr>
+        <th><span class="negrito">Specifications:  </span></th>
+      </tr>
+      <tr>
+        <td class="negrito">Shifting:</td>
+        <td>Shimano 7-Speed Revoshift Grip</td>
+      </tr>
+      <tr>
+        <td class="negrito">Handlebars:</td>
+        <td>Alloy Riser City Bars 620mm, 60mm Rise, 15° Sweep, 25.4 Center</td>
+      </tr>
+      <tr>
+        <td class="negrito">Derailleur:</td>
+        <td>Shimano TX35</td>
+      </tr>
+      <tr>
+        <td class="negrito">Available Colors:</td>
+        <td>Olive, Turquoise, Coral, Black, Cream</td>
+      </tr>
+    </table> 
+    <button onclick="formOk()" class="submitbutton">Buy Now</button>
+
+   </div>
+</div> 
+
+<div id="bike3" class="gallery">
+  <img src="https://images.pexels.com/photos/462036/pexels-photo-462036.jpeg?cs=srgb&dl=adventure-beach-bicycle-462036.jpg&fm=jpg" alt="Bike3">
+ <div class="desc">
+    <h4>Mongoose Ledge 2.1 - <span class="price">Only $135</span></h4>
+    <table>
+      <tr>
+        <th><span class="negrito">Specifications:  </span></th>
+      </tr>
+      <tr>
+        <td class="negrito">Shifting:</td>
+        <td>Shimano 21 Speed Twist Shifters</td>
+      </tr>
+      <tr>
+        <td class="negrito">Handlebars:</td>
+        <td>Alloy Riser City Bars 620mm, 60mm Rise, 15° Sweep, 25.4 Center</td>
+      </tr>
+      <tr>
+        <td class="negrito">Derailleur:</td>
+        <td>Shimano Rear</td>
+      </tr>
+      <tr>
+        <td class="negrito">Available Colors:</td>
+        <td>Black/Red, Grey/Green</td>
+      </tr>
+    </table> 
+    <button onclick="formOk()" class="submitbutton">Buy Now</button>
+
+   </div>
+</div> 
+
+ 
+   
+    
+      
+
+<footer>
+      <div class="footerbar"> 137 E. Main ST Bozeman, MT 59715<br/>
+Produced by Wagner Filgueiras | CIT 230:05 | July 2018 | <a href="credits.html">Source Page</a> | <a href="credits.html">About this page Video</a>
+      </div>
+      </footer>
+
+      </body>
+      <script src="scripts/active.js"></script>
+  
+
+</html>
